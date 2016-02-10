@@ -22,7 +22,6 @@
 }*/
 .navbar-nav {
     display: inline-block;
-    text-align: center;
     margin: 0;
     float:none;
 }
@@ -40,6 +39,7 @@ body {
 
 .mainpage-content h1{
 	color:black;
+	margin-bottom: 20px;
 }
 .mainpage-content img{
 	margin: auto;
