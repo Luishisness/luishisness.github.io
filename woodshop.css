@@ -20,6 +20,9 @@
 .navbar-default .navbar-nav>li>a {
     color: #777;
 }
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
 @media (min-width: 768px)
 .navbar-nav>li>a {
     /*  */padding-top: 0px;
@@ -33,6 +36,7 @@
     display: inline-block;
     margin: 0;
     float:none;
+    font-size:18px;
 }
 
 /*-------------Wood Shop Styles---------------------------*/
