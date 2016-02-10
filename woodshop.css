@@ -2,7 +2,7 @@
 
 
 /*------------Overwritten bootstrap styles-------------------*/
-.container-fluid {
+/*.container-fluid {
     padding-right: 0; 
     padding-left: 0; 
  
@@ -19,12 +19,12 @@
 
 .navbar-default {
     text-align: center;
-}
+}*/
 
 /*-------------Wood Shop Styles---------------------------*/
 body {
   padding-top: 70px;
-  text-align: center;
+  /*text-align: center;*/
 }		
 .navbar-woodshop{
 	/*margin: 0 0 0 240px;
