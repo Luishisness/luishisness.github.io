@@ -33,6 +33,9 @@ body {
 .mainpage-content{
 	text-align: center;
 }
+.mainpage-content h1{
+	color:green;
+}
 .mainpage-content img{
 	margin: auto;
 	width:100%;
