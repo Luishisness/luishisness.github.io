@@ -9,8 +9,15 @@ h1{
 
 .img-responsive{
 	margin:auto;
+	width:100%;
 }
 ul.navbar-woodshop li{
 	/*margin: 0 0 0 240px;*/
 	text-align:center;
-}s
+}
+
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0; 
+ 
+}
