@@ -24,15 +24,13 @@
 /*-------------Wood Shop Styles---------------------------*/
 body {
   padding-top: 70px;
-  /*text-align: center;*/
+  /**/text-align: center;
 }		
 .navbar-woodshop{
 	/*margin: 0 0 0 240px;
 	text-align:center;*/
 }
-.mainpage-content{
-	text-align: center;
-}
+
 .mainpage-content h1{
 	color:green;
 }
