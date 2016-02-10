@@ -12,14 +12,16 @@
  }
  .container-fluid ul{
     text-align:center; 
- }
-.navbar-nav {
-    display: inline-block;
+ }*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    font-size: 18px;
+    /* background-color: #e7e7e7; */
 }
 
 .navbar-default {
-    text-align: center;
-}*/
+    background-color: black;
+}
 .navbar-nav {
     display: inline-block;
     margin: 0;
@@ -39,7 +41,7 @@ body {
 
 .mainpage-content h1{
 	color:black;
-	margin-bottom: 20px;
+	margin-bottom: 300px;
 }
 .mainpage-content img{
 	margin: auto;
