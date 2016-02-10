@@ -1,23 +1,26 @@
-body {
-  padding-top: 70px;
-  text-align: center;
-}
 
-h1{
-	
-}
 
-.img-responsive{
-	margin:auto;
-	width:100%;
-}
-ul.navbar-woodshop li{
-	/*margin: 0 0 0 240px;*/
-	text-align:center;
-}
 
+/*------------Overwritten bootstrap styles-------------------*/
 .container-fluid {
     padding-right: 0; 
     padding-left: 0; 
  
+}
+
+/*-------------Wood Shop Styles---------------------------*/
+body {
+  padding-top: 70px;
+  text-align: center;
+}		
+ul.navbar-woodshop li{
+	/*margin: 0 0 0 240px;
+	text-align:center;*/
+}
+.mainpage-content{
+	text-align: center;
+}
+.mainpage-content img{
+	margin: auto;
+	width:100%;
 }
