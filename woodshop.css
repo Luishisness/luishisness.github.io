@@ -14,7 +14,6 @@
     text-align:center; 
  }*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
     font-size: 18px;
     /**/ background-color: none; 
 }
@@ -37,6 +36,9 @@ body {
 	/*margin: 0 0 0 240px;
 	text-align:center;*/
 	text-transform: uppercase;
+}
+.navbar-woodshop ul:hover li{
+	color:white;
 }
 
 .mainpage-content h1{
