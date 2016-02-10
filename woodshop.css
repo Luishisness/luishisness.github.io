@@ -7,6 +7,9 @@
     padding-left: 0; 
  
 }
+.container-fluid ul li{
+    text-align:center; 
+ }
 .navbar-nav {
     display: inline-block;
 }
