@@ -7,6 +7,13 @@
     padding-left: 0; 
  
 }
+.navbar-nav {
+    display: inline-block;
+}
+
+.navbar-default {
+    text-align: center;
+}
 
 /*-------------Wood Shop Styles---------------------------*/
 body {
