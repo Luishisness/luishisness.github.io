@@ -7,6 +7,9 @@ h1{
 	
 }
 
+.img-responsive{
+	margin:auto;
+}
 ul.navbar-woodshop{
 	/*margin: 0 0 0 240px;*/
 	text-align:center;
