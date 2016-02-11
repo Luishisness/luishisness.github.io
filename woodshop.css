@@ -79,3 +79,7 @@ body {
 	width: 30px;
 	display: inline-block;
 }
+.footer-woodshop{
+	position: absolute;
+	bottom: 0;
+}
