@@ -77,4 +77,5 @@ body {
 .socialicon-woodshop img{
 	height: 30px;
 	width: 30px;
+	display: inline-block;
 }
