@@ -81,3 +81,11 @@ body {
 	margin: auto;
 	width:100%;
 }
+.socialicon-woodshop img{
+	padding:20px;
+	height: 30px;
+	width: 30px;
+}
+.socialicon-woodshop img:hover{
+	opacity: 0.6;
+}
