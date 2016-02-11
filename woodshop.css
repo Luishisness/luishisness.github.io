@@ -66,6 +66,10 @@ body {
     padding-bottom: 10px;
     border: solid black 1px;
 }
+.mainpage-content p:nth-child(1){
+	margin-top: 20px;
+	
+}
 .mainpage-content p{
 	margin-top: 15px;
 	    font-size: 20px;
@@ -80,6 +84,6 @@ body {
 	display: inline-block;
 }
 .footer-woodshop{
-	position: absolute;
+	margin-top: 30px;
 	bottom: 0;
 }
