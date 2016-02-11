@@ -2,21 +2,6 @@
 
 
 /*------------Overwritten bootstrap styles-------------------*/
-/*.container-fluid {
-    padding-right: 0; 
-    padding-left: 0; 
- 
-}
-.container-fluid li{
-    text-align:center; 
- }
- .container-fluid ul{
-    text-align:center; 
- }*/
-/*.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    font-size: 18px;
-     background-color: none; 
-}*/
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
