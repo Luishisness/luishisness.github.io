@@ -9,7 +9,7 @@
     color: gray;
 }
 @media (min-width: 768px)
-.navbar-nav>li>a {
+.navbar-nav a {
       padding-bottom: 0px;
 }
 
