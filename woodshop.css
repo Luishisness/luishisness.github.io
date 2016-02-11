@@ -67,14 +67,14 @@ body {
     border: solid black 1px;
 }
 
-.mainpage-content p{
+/*.mainpage-content p{
 	margin-top: 15px;
 	    font-size: 20px;
 }
 .mainpage-content p:nth-child(1){
 	margin-top: 20px;
 	
-}
+}*/
 .mainpage-content img{
 	margin: auto;
 	width:100%;
