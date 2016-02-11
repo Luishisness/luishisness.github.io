@@ -52,6 +52,13 @@ body {
 .navbar-woodshop ul:hover li{
 	color:white;
 }
+.socialicon-woodshop img{
+	padding:20px;
+
+}
+.socialicon-woodshop img:hover{
+	opacity: 0.6;
+}
 
 .mainpage-content h1{
 	color:black;
