@@ -52,8 +52,7 @@ body {
 .navbar-woodshop ul:hover li{
 	color:white;
 }
-/*.socialicon-woodshop img{
-	padding:20px;
+.socialicon-woodshop img{
 	height: 30px;
 	width: 30px;
 
@@ -61,7 +60,7 @@ body {
 }
 .socialicon-woodshop img:hover{
 	opacity: 0.6;
-}*/
+}
 
 .mainpage-content h1{
 	color:black;
@@ -80,9 +79,4 @@ body {
 .mainpage-content img{
 	margin: auto;
 	width:100%;
-}
-img.socialicon-woodshop-img{
-	padding:20px;
-	height: 30px;
-	width: 30px;
 }
