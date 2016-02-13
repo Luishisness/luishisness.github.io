@@ -30,7 +30,7 @@ div.navbar-header{}
 }
 .navbar-nav>.open>a {
     color: white !important;
-    background-color: black !important;
+    background-color: rgba(0,0,0, 0.9) !important;
 }
 .dropdown-menu {
     margin-top: 13px !important;
