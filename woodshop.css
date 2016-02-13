@@ -38,6 +38,9 @@ div.navbar-header{}
     background-color: beige; 
 
 }
+.dropdown-menu>li>a {
+    color: white;
+}
 
 /*--------------------Global page shared styles---------------------------------*/
 
