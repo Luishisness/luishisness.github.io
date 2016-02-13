@@ -29,11 +29,11 @@ div.navbar-header{}
     margin-left: auto;
 }
 .navbar-nav>.open>a {
-    color: white;
-    background-color: black;
+    color: white !important;
+    background-color: black !important;
 }
 .dropdown-menu {
-    margin-top: 13px;
+    margin-top: 13px !important;
 }
 
 /*--------------------Global page shared styles---------------------------------*/
