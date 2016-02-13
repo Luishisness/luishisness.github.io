@@ -14,7 +14,7 @@ $(".dropdown").mouseenter(function(){
     $(".dropdown-menu").fadeIn(); 
     $(".dropdown-menu").css({'position':'relative'});
 });	
-$(".dropdown").mouseenter(function(){
+$(".dropdown").mouseleave(function(){
     $(".dropdown-menu").fadeOut(); 
     //$(".dropdown-menu").css({'position':'relative'});
 });
