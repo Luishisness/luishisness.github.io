@@ -19,6 +19,14 @@
     float:none;
     font-size:18px;
 }
+.container-fluid {
+    background-color: white;
+    max-width: 70%;
+    /* */padding-right: 0px; 
+    /* */padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /*--------------------Global page shared styles---------------------------------*/
 
@@ -64,7 +72,7 @@ body {
 }/**/
 .mainpage-content img{
 	margin: auto;
-    max-width: 60%;
+    max-width: 100%;
 	/*width:100%;*/
 }
 .mainpage-center-content{
