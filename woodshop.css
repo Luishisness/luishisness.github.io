@@ -34,6 +34,7 @@
 body {
   /**/text-align: center;
   font-family: 'Old Standard TT', serif;
+  background-color: beige; 
 }		
 .navbar-woodshop{
 	/*margin: 0 0 0 240px;
