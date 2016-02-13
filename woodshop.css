@@ -23,12 +23,18 @@ div.navbar-header{}
 .container-fluid {
     background-color: white;
     max-width: 70%;
-    /* */padding-right: 0px; 
-    /* */padding-left: 0px; 
+    padding-right: 0px; 
+    padding-left: 0px; 
     margin-right: auto;
     margin-left: auto;
 }
-
+.navbar-nav>.open>a {
+    color: white;
+    background-color: black;
+}
+.dropdown-menu {
+    margin-top: 13px;
+}
 
 /*--------------------Global page shared styles---------------------------------*/
 
