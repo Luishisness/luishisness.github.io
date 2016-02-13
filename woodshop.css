@@ -1,7 +1,4 @@
-
-
-
-/*------------Overwritten bootstrap styles-------------------*/
+/*------------Global Overwritten bootstrap styles-------------------*/
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
@@ -23,9 +20,10 @@
     font-size:18px;
 }
 
-/*-------------Wood Shop Styles---------------------------*/
+/*--------------------Global page shared styles---------------------------------*/
+
+/*-------------Wood Shop Styles :Home Page---------------------------*/
 body {
-  padding-top: 70px;
   /**/text-align: center;
   font-family: 'Old Standard TT', serif;
 }		
@@ -40,7 +38,9 @@ body {
 .socialicon-woodshop img:hover{
 	opacity: 0.6;
 }
-
+.mainpage-content{
+    padding-top: 70px;
+}
 .mainpage-content h1{
 	color: black;
     margin-bottom: 40px;
