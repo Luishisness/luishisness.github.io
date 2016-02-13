@@ -10,14 +10,17 @@ function navigationHighlight(){
 //Add hover to completed works
 /**/
 //if(viewportWidth>1052){}
-$(".dropdown").hover(function(){
-    $(".dropdown-menu").fadeToggle(); 
+$(".dropdown").mouseenter(function(){
+    $(".dropdown-menu").fadeIn(); 
     $(".dropdown-menu").css({'position':'absolute'});
 
     if(viewportWidth<1052){
 		$(".dropdown-menu").css({'position':'relative'});
 	}
-});	
+});
+$(".dropdown").mouseleave(function(){
+    $(".dropdown-menu").fadeIn(); 
+});		
 
 
 /*$(".dropdown").mouseleave(function(){
