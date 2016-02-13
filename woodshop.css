@@ -66,6 +66,17 @@ body {
 	margin: auto;
 	/*width:100%;*/
 }
+.mainpage-center-content{
+
+}
+.mainpage-center-content img{
+    max-width: 640px;
+    
+}
+.mainpage-center-content p{
+    max-width: 640px;
+    
+}
 .socialicon-woodshop{
 	margin-top: 20px;
     margin-bottom: 20px;
