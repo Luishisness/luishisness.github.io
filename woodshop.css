@@ -5,7 +5,7 @@
 .navbar-default .navbar-nav>li>a:hover {
     color: gray;
 }
-@media (min-width: 768px)
+
 .navbar-nav>li>a {
       padding-bottom: 0px;
 }
