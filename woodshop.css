@@ -28,10 +28,7 @@ div.navbar-header{}
     margin-right: auto;
     margin-left: auto;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color: transparent;
-}
+
 
 /*--------------------Global page shared styles---------------------------------*/
 
