@@ -10,15 +10,18 @@ function navigationHighlight(){
 //Add hover to completed works
 /**/
 //if(viewportWidth>1052){}
-$(".dropdown").mouseenter(function(){
-    $(".dropdown-menu").fadeIn(); 
-    $(".dropdown-menu").css({'position':'relative'});
+$(".dropdown").hover(function(){
+    $(".dropdown-menu").fadeToggle(); 
+    $(".dropdown-menu").css({'position':'absolute','overflow':'hidden'});
 });	
-$(".dropdown").mouseleave(function(){
+/*$(".dropdown").mouseleave(function(){
     $(".dropdown-menu").fadeOut(); 
     //$(".dropdown-menu").css({'position':'relative'});
-});
+});*/
 
+
+
+//.navbar-toggle
 
 
 //.navbar-toggle
