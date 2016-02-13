@@ -13,9 +13,12 @@ function navigationHighlight(){
 $(".dropdown").hover(function(){
     $(".dropdown-menu").fadeToggle(); 
     $(".dropdown-menu").css({'position':'absolute'});
+
+    if(viewportWidth<1052){
+		$(".dropdown-menu").css({'position':'relative'});
+	}
 });	
 
-$(".dropdown-menu").css({'position':'relative'});
 
 /*$(".dropdown").mouseleave(function(){
     $(".dropdown-menu").fadeOut(); 
