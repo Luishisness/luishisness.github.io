@@ -35,6 +35,8 @@ div.navbar-header{}
 .dropdown-menu {
     margin-top: 13px !important;
     text-align: center;
+    background-color: beige; 
+
 }
 
 /*--------------------Global page shared styles---------------------------------*/
