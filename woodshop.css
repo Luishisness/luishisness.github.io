@@ -11,8 +11,9 @@
 }
 
 .navbar-default {
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.9);
 }
+div.navbar-header{}
 .navbar-nav {
     display: inline-block;
     margin: 0;
