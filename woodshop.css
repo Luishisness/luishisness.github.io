@@ -2,6 +2,9 @@
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+.navbar-default .navbar-nav>li>a:focus {
+    color: white;
+}
 .navbar-default .navbar-nav>li>a:hover {
     color: gray;
 }
