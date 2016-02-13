@@ -12,8 +12,11 @@ function navigationHighlight(){
 //if(viewportWidth>1052){}
 $(".dropdown").hover(function(){
     $(".dropdown-menu").fadeToggle(); 
-    $(".dropdown-menu").css({'position':'absolute','overflow':'hidden'});
+    $(".dropdown-menu").css({'position':'absolute'});
 });	
+
+$(".dropdown-menu").css({'position':'relative'});
+
 /*$(".dropdown").mouseleave(function(){
     $(".dropdown-menu").fadeOut(); 
     //$(".dropdown-menu").css({'position':'relative'});
