@@ -46,6 +46,18 @@ div.navbar-header{}
 }*/
 
 /*--------------------Global page shared styles---------------------------------*/
+header{
+    color: black;
+    margin-bottom: 40px;
+    max-width: 565px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: solid black 1px; */
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
 
 /*-------------Wood Shop Styles :Home Page---------------------------*/
 body {
@@ -67,7 +79,7 @@ body {
 .mainpage-content{
     padding-top: 70px;
 }
-.mainpage-content h1{
+/*.mainpage-content h1{
 	color: black;
     margin-bottom: 40px;
     max-width: 565px;
@@ -75,10 +87,10 @@ body {
     margin-left: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* border: solid black 1px; */
+   
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-}
+}*/
 
 .mainpage-content p{
 	/*margin-top: 15px;*/
