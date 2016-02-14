@@ -77,6 +77,16 @@ header{
   left: 0;*/
 }
 
+.grid-woodshop{}
+div.grid-woodshop{
+    padding:5px;
+}
+img.grid-woodshop{width:30%;}
+
+
+
+.carousel-tag-woodshop{}
+
 /*--------------------Global nav  styles---------------------------------*/
 .navbar-woodshop{
     text-transform: uppercase;
