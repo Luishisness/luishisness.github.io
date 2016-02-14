@@ -38,6 +38,7 @@ $('#myCarousel').carousel({
 /**/for(i=0; i<carouselList.length; i++){
 
 	var listtoAppend= jQuery('<div class="item">' + carouselList[i] +'<div>');
+	console.log(listtoAppend);
 
 	listtoAppend.appendTo('.carousel-inner');
 }
