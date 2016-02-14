@@ -52,7 +52,7 @@ $(".grid-woodshop").click(function(){
 
     //On click get the box list of classes
     var getClickedBox=$(this).attr('class');
-    //console.log('Button: '+ $(this).attr('class'));
+    console.log(getClickedBox);
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
     //console.log(getclickedBox);
