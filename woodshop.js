@@ -53,7 +53,7 @@ $('#myCarousel').hide();
 $('#myCarousel').mouseleave(function(){
     $('#myCarousel').fadeOut();
 });
-$('#myCarousel').click(function(){
+$('.carousel-inner').click(function(){
     $('#myCarousel').fadeOut();
 });
 
