@@ -49,8 +49,12 @@ $('#myCarousel').carousel({
 
 $(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
+
+    var getclickedBox =$('.grid-woodshop', this).attr('class');
+    console.log(getclickedBox);
 });
 
+//Slide show remove
 $('#myCarousel').mouseleave(function(){
     $('#myCarousel').fadeOut();
 });
