@@ -53,9 +53,11 @@ $(".grid-woodshop").click(function(){
     //On click get the box list of classes
     var getClickedBox=$(this).attr('class');
     	afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1);
+    	getNumber= getClickedBox[afterTag];
     
 
     console.log(afterTag);
+    console.log(getNumber);
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
     //console.log(getclickedBox);
