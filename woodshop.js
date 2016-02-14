@@ -47,8 +47,13 @@ $('#myCarousel').hide();
 }*/
 
 /**/$(".grid-woodshop").click(function(){
-    $('#myCarousel').fadeToggle();
+    $('#myCarousel').fadeIn();
 });
+
+$('#myCarousel').mouseleave(function(){
+    $('#myCarousel').fadeOut();
+});
+
 
 
 
