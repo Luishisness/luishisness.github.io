@@ -58,7 +58,7 @@ div.navbar-header{}
     background-color: beige; 
 }
 #myCarousel{
-    padding-top: 35px;
+    padding-top: 5px;
     /*display: none;*/
     border-top: solid white 1px;
 }
