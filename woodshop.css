@@ -80,6 +80,7 @@ header{
 .grid-woodshop{}
 div.grid-woodshop{
     padding:5px;
+    display: inline;
 }
 .grid-woodshop img{width:30%;}
 
