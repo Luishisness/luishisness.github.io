@@ -38,6 +38,10 @@ $('#myCarousel').carousel({
 	$('<div class="item">' + carouselList[i] +'<div>').appendTo('.carousel-inner');
 }
 
+$(".grid-woodshop").click(function(){
+    $('#myCarousel').fadeToggle();
+});
+
 
 
 
