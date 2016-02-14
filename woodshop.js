@@ -1,4 +1,5 @@
-var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+	carouselList=jQuery(".grid-woodshop");
 
 //Active highlight for main navigation
 
@@ -27,6 +28,7 @@ $('#myCarousel').carousel({
     interval: false
 }); 
 
+carouselList.appendTo('#myCarousel');
 
 
 //.navbar-toggle
