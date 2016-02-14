@@ -46,10 +46,17 @@ div.navbar-header{}
 
 /*.dropdown-menu>li>a {
     color: white;
-}*/
+}
 .carousel-inner>.item>img {
     display: inline-block;
     max-width: 100%;
+}*/
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
 }
 .carousel-control.right,
  .carousel-control.left{
