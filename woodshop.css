@@ -61,6 +61,10 @@ div.navbar-header{}
     /*display: none;*/
     border-top: solid white 1px;
 }
+#myCarousel,
+.carousel-inner{
+    height:100%;
+}
 .carousel-caption {
     position: relative;
     right: 0%; 
