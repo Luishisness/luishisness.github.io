@@ -1,3 +1,5 @@
+
+
 /*------------Global Overwritten bootstrap styles-------------------*/
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -46,52 +48,40 @@ div.navbar-header{}
 }*/
 
 /*--------------------Global page shared styles---------------------------------*/
+body {
+  /**/text-align: center;
+  font-family: 'Old Standard TT', serif;
+  background-color: beige; 
+}   
+
 header{
     color: black;
     margin-bottom: 40px;
     max-width: 565px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     /* border: solid black 1px; */
     border-top: solid black 1px;
     border-bottom: solid black 1px;
 }
+.main-content{
+    padding-top: 70px;
+}
+
+/*--------------------Global nav  styles---------------------------------*/
+.navbar-woodshop{
+    text-transform: uppercase;
+}
+/*.navbar-woodshop ul:hover li{
+    color:white;
+}*/
 
 /*-------------Wood Shop Styles :Home Page---------------------------*/
-body {
-  /**/text-align: center;
-  font-family: 'Old Standard TT', serif;
-  background-color: beige; 
-}		
-.navbar-woodshop{
-	/*margin: 0 0 0 240px;
-	text-align:center;*/
-	text-transform: uppercase;
-}
-.navbar-woodshop ul:hover li{
-	color:white;
-}
 .socialicon-woodshop img:hover{
 	opacity: 0.6;
 }
-.mainpage-content{
-    padding-top: 70px;
-}
-/*.mainpage-content h1{
-	color: black;
-    margin-bottom: 40px;
-    max-width: 565px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-   
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
-}*/
-
 .mainpage-content p{
 	/*margin-top: 15px;*/
 	 font-size: 20px;
