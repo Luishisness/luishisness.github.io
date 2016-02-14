@@ -57,7 +57,7 @@ div.navbar-header{}
 }
 .carousel {
     margin-top: 35px;
-    display: none;
+    /*display: none;*/
 }
 
 /*--------------------Global page shared styles---------------------------------*/
