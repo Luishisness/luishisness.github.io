@@ -51,6 +51,10 @@ div.navbar-header{}
     display: inline-block;
     max-width: 100%;
 }
+.carousel-control.right,
+ .carousel-control.left{
+    background-image:none !important;
+}
 
 /*--------------------Global page shared styles---------------------------------*/
 body {
