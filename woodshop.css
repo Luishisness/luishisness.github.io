@@ -54,6 +54,7 @@ div.navbar-header{}
 .carousel-control.right,
  .carousel-control.left{
     background-image:none ;
+    background-color: beige; 
 }
 #myCarousel{
     margin-top: 35px;
