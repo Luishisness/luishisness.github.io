@@ -1,5 +1,5 @@
 var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-	carouselList=jQuery(".grid-woodshop img");
+	carouselList=jQuery(".grid-woodshop").find('img');
 
 //Active highlight for main navigation
 
