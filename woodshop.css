@@ -53,7 +53,10 @@ div.navbar-header{}
 }
 .carousel-control.right,
  .carousel-control.left{
-    background-image:none !important;
+    background-image:none ;
+}
+.carousel {
+    margin-top: 35px;
 }
 
 /*--------------------Global page shared styles---------------------------------*/
