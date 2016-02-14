@@ -67,7 +67,14 @@ header{
     border-bottom: solid black 1px;
 }
 .main-content{
-    padding-top: 70px;
+    padding-top: 90px;
+}
+.footer-woodshop{
+    margin-top: 30px;
+  /*position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;*/
 }
 
 /*--------------------Global nav  styles---------------------------------*/
@@ -95,17 +102,6 @@ header{
     max-width: 100%;
 	/*width:100%;*/
 }
-.mainpage-center-content{
-
-}
-.mainpage-center-content img{
-    max-width: 640px;
-    
-}
-.mainpage-center-content p{
-    max-width: 640px;
-    
-}
 .socialicon-woodshop{
 	margin-top: 20px;
     margin-bottom: 20px;
@@ -114,11 +110,4 @@ header{
 	height: 30px;
 	width: 30px;
 	display: inline-block;
-}
-.footer-woodshop{
-    margin-top: 30px;
-  /*position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
 }
