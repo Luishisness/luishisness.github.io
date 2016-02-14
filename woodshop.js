@@ -1,5 +1,5 @@
 var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-	carouselList=jQuery(".grid-woodshop");
+	carouselList=jQuery(".grid-woodshop img");
 
 //Active highlight for main navigation
 
@@ -28,7 +28,11 @@ $('#myCarousel').carousel({
     interval: false
 }); 
 
+//$("#foo").append("<div>hello world</div>")
 //carouselList.appendTo('.carousel-inner');
+$('<div class="item active testingme">
+          <img src="/luishisness.github.io/images/chair.jpg" alt="chair">
+        </div>').appendTo('.carousel-inner');
 
 
 //.navbar-toggle
