@@ -50,7 +50,9 @@ $('#myCarousel').carousel({
 $(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
 
-    console.log('Button: '+ $(this).attr('class'));
+    //On click get the box list of classes
+    var getClickedBox=$(this).attr('class');
+    //console.log('Button: '+ $(this).attr('class'));
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
     //console.log(getclickedBox);
