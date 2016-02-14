@@ -40,9 +40,9 @@ for(i=0; i<carouselList.length; i++){
 	$('<div class="item">' + carouselList[i] +'<div>').appendTo('.carousel-inner');
 }
 
-$(".grid-woodshop").click(function(){
+/*$(".grid-woodshop").click(function(){
     $('#myCarousel').fadeToggle();
-});
+});*/
 
 
 
