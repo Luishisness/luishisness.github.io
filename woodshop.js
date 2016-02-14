@@ -28,7 +28,7 @@ $('#myCarousel').carousel({
     interval: false
 }); 
 
-carouselList.appendTo('.carousel-inner');
+//carouselList.appendTo('.carousel-inner');
 
 
 //.navbar-toggle
