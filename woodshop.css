@@ -59,6 +59,12 @@ div.navbar-header{}
     margin-top: 35px;
     /*display: none;*/
 }
+.carousel-caption {
+    position: relative;
+    right: 0%; 
+    left: 0%; 
+
+}
 
 /*--------------------Global page shared styles---------------------------------*/
 body {
