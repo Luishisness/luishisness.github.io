@@ -30,8 +30,8 @@ $('#myCarousel').carousel({
 
 //$("#foo").append("<div>hello world</div>")
 //carouselList.appendTo('.carousel-inner');
-$('<div class=\"item active testingme\">
-          <img src=\"/luishisness.github.io/images/chair.jpg\" alt=\"chair\">
+$('<div class="item active testingme">
+          <img src=\"/luishisness.github.io/images/chair.jpg\" alt="chair">
         </div>').appendTo('.carousel-inner');
 
 
