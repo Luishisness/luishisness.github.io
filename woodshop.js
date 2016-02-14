@@ -43,7 +43,7 @@ $('#myCarousel').carousel({
 	listtoAppend.appendTo('.carousel-inner');
 }*/
 
-/*$('#myCarousel').hide();
+/**/$('#myCarousel').hide();
 
 
 
@@ -57,7 +57,7 @@ $('#myCarousel').mouseleave(function(){
 $('.carousel-inner').click(function(){
     $('#myCarousel').fadeOut();
 });
-*/
+
 
 
 
