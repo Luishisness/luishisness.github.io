@@ -23,7 +23,9 @@ $(".dropdown").mouseleave(function(){
 });		
 */
 
-
+$('#myCarousel').carousel({
+    interval: false
+}); 
 
 
 
