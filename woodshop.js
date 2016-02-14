@@ -1,5 +1,5 @@
 var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-	carouselList=jQuery(".grid-woodshop").find('img');
+	carouselList=jQuery(".grid-woodshop");
 
 //Active highlight for main navigation
 
@@ -28,6 +28,8 @@ $('#myCarousel').carousel({
     interval: false
 }); 
 
+carouselList.appendTo('.carousel-inner');
+
 //$("#foo").append("<div>hello world</div>")
 //carouselList.appendTo('.carousel-inner');
 //$('<div class="item"><img src="/luishisness.github.io/images/chair.jpg" alt="chair"></div>').appendTo('.carousel-inner');
@@ -35,13 +37,14 @@ $('#myCarousel').carousel({
 
 //$('#myCarousel').hide();
 
-/**/for(i=0; i<carouselList.length; i++){
+/*for(i=0; i<carouselList.length; i++){
 
-	var listtoAppend= jQuery('<div class="item">' + carouselList[i] +'<div>');
+	//var listtoAppend= jQuery('<div class="item">' + carouselList[i] +'<div>');
+	var listtoAppend= jQuery(carouselList[i]);
 	console.log(listtoAppend);
 
 	listtoAppend.appendTo('.carousel-inner');
-}
+}*/
 
 /*$(".grid-woodshop").click(function(){
     $('#myCarousel').fadeToggle();
