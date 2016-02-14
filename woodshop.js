@@ -28,7 +28,7 @@ $('#myCarousel').carousel({
     interval: false
 }); 
 
-carouselList.appendTo('.carousel-inner');
+//carouselList.appendTo('.carousel-inner');
 
 //$("#foo").append("<div>hello world</div>")
 //carouselList.appendTo('.carousel-inner');
