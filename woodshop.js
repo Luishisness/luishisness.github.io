@@ -34,9 +34,6 @@ $('#myCarousel').carousel({
 //carouselList.appendTo('.carousel-inner');
 //$('<div class="item"><img src="/luishisness.github.io/images/chair.jpg" alt="chair"></div>').appendTo('.carousel-inner');
 //$('<div class="item">' + carouselList +'<div>').appendTo('.carousel-inner');
-
-$('#myCarousel').hide();
-
 /*for(i=0; i<carouselList.length; i++){
 
 	//var listtoAppend= jQuery('<div class="item">' + carouselList[i] +'<div>');
@@ -46,7 +43,11 @@ $('#myCarousel').hide();
 	listtoAppend.appendTo('.carousel-inner');
 }*/
 
-/**/$(".grid-woodshop").click(function(){
+/*$('#myCarousel').hide();
+
+
+
+$(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
 });
 
@@ -56,7 +57,7 @@ $('#myCarousel').mouseleave(function(){
 $('.carousel-inner').click(function(){
     $('#myCarousel').fadeOut();
 });
-
+*/
 
 
 
