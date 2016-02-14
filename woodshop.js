@@ -37,7 +37,9 @@ $('#myCarousel').carousel({
 
 /**/for(i=0; i<carouselList.length; i++){
 
-	$('<div class="item">' + carouselList[i] +'<div>').appendTo('.carousel-inner');
+	var listtoAppend= jQuery('<div class="item">' + carouselList[i] +'<div>');
+
+	listtoAppend.appendTo('.carousel-inner');
 }
 
 /*$(".grid-woodshop").click(function(){
