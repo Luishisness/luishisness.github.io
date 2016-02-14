@@ -55,7 +55,7 @@ div.navbar-header{}
  .carousel-control.left{
     background-image:none ;
 }
-.carousel {
+#myCarousel{
     margin-top: 35px;
     /*display: none;*/
 }
