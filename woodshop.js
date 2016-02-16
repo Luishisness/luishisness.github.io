@@ -45,12 +45,12 @@ $('#myCarousel').carousel({
 
     //On click get the box list of classes
     var getClickedBox=$(this).attr('class'),
-    	afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1),
-    	getNumber= getClickedBox[afterTag];
+    	//afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1),
+    	//getNumber= getClickedBox[afterTag];
     
     //console.log()
-    console.log(afterTag);
-    console.log(getNumber);
+    /*console.log(afterTag);
+    console.log(getNumber);*/
 
 /**/$('#myCarousel').hide();
 
