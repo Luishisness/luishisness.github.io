@@ -48,7 +48,7 @@ $('#myCarousel').carousel({
     	//afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1),
     	//getNumber= getClickedBox[afterTag];
     
-    //console.log()
+    console.log(getClickedBox);
     /*console.log(afterTag);
     console.log(getNumber);*/
 
