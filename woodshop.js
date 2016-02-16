@@ -44,7 +44,7 @@ $('#myCarousel').carousel({
 }*/
 
     //On click get the box list of classes
-    var getClickedBox=$(this).attr('class'),
+    var getClickedBox=$(this).attr('class');
     	//afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1),
     	//getNumber= getClickedBox[afterTag];
     
