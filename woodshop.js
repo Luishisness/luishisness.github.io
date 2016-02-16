@@ -62,8 +62,8 @@ $('#myCarousel').carousel({
 $(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
     var getClickedBox=$(this).attr('class');
-    console.log(getClickedBox.length);
- 		getClickedBox.charAt("carousel-tag-woodshop" + 1);
+    //console.log(getClickedBox.length);
+ 		//getClickedBox.charAt("carousel-tag-woodshop" + 1);
     console.log("The paragraph was clicked."+ getClickedBox);
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
