@@ -54,7 +54,7 @@ $('#myCarousel').carousel({
     console.log("The paragraph was clicked."+ getClickedBox);
 });
     
-    console.log(getClickedBox);
+    //console.log(getClickedBox);
     /*console.log(afterTag);
     console.log(getNumber);*/
 
