@@ -43,12 +43,12 @@ $('#myCarousel').carousel({
 	listtoAppend.appendTo('.carousel-inner');
 }*/
 //grid-woodshop carousel-tag-woodshop four
-$('.grid-woodshop', this).on('click','.carousel-tag-woodshop', function() {
+/*$('.grid-woodshop', this).on('click','.carousel-tag-woodshop', function() {
 	var getClickedBox=$(this).attr('class');
  		getClickedBox.charAt("carousel-tag-woodshop" + 1);
     console.log("The paragraph was clicked."+ getClickedBox);
 	  
-});
+});*/
 
     
     //console.log(getClickedBox);
@@ -61,6 +61,9 @@ $('.grid-woodshop', this).on('click','.carousel-tag-woodshop', function() {
 
 $(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
+    var getClickedBox=$(this).attr('class');
+ 		getClickedBox.charAt("carousel-tag-woodshop" + 1);
+    console.log("The paragraph was clicked."+ getClickedBox);
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
     //console.log(getclickedBox);
