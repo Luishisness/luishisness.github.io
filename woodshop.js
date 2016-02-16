@@ -43,21 +43,21 @@ $('#myCarousel').carousel({
 	listtoAppend.appendTo('.carousel-inner');
 }*/
 
+    //On click get the box list of classes
+    var getClickedBox=$(this).attr('class'),
+    	afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1),
+    	getNumber= getClickedBox[afterTag];
+    
+    //console.log()
+    console.log(afterTag);
+    console.log(getNumber);
+
 /**/$('#myCarousel').hide();
 
 
 
 $(".grid-woodshop").click(function(){
     $('#myCarousel').fadeIn();
-
-    //On click get the box list of classes
-    var getClickedBox=$(this).attr('class');
-    	afterTag= getClickedBox.indexOf("carousel-tag-woodshop" + 1);
-    	getNumber= getClickedBox[afterTag];
-    
-
-    console.log(afterTag);
-    console.log(getNumber);
 
     //var getclickedBox =$('.grid-woodshop', this).attr('class');
     //console.log(getclickedBox);
