@@ -52,7 +52,7 @@
 	text-decoration: underline;
 }
 
-ul,ol{
+ul{
 	width: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -88,18 +88,24 @@ ul,ol{
 			<h2 class="master-ecom-h2-default">LIST SECTION</h2>
 
 			<p>Unordered List: &ltul&gt&lt/ul&gt</p>
-			<ul>
+			<ul id="master-ecom-list-target">
 				<li>Here</li>
 				<li>We</li>
 				<li>Go</li>
 			</ul>
 
-			<p>Ordered List: &ltol&gt&lt/ol&gt</p>
-			<ol>
-				<li>Here</li>
-				<li>We</li>
-				<li>Go</li>
-			</ol>
+			<p>Please select a style below to see the styling in action:</p>
+
+			<input type="checkbox" name="stylinglist" value="l1" onkeydown = "if (event.keyCode == 13)
+                        changelistStyle()" >Remove Bullets: list-style-type:none;<br>
+
+			<input type="checkbox" name="stylinglist" value="l2" onkeydown = "if (event.keyCode == 13)
+                        changelistStyle()" >Add Bullets: list-style-type:disc;<br>
+
+			<input type="checkbox" name="stylinglist" value="l3" onkeydown = "if (event.keyCode == 13)
+                        changelistStyle()" >Add Nmbered Bullets (acts as an ordered list): list-style-type:decimal;<br>
+			
+			
 		</div>
 
 		<div class="master-ecom-marginSection">
@@ -115,7 +121,17 @@ ul,ol{
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+
 jQuery(document).ready(function() {
+
+	function changelistStyle(){
+
+		var valueis=jQuery("stylinglist").attr("value");
+		console.log(valueis);
+		
+	}
+
 
 });
 
