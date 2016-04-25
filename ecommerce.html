@@ -96,11 +96,11 @@ ul{
 
 			<p>Please select a style below to see the styling in action:</p>
 
-			<input type="checkbox" name="stylinglist" value="l1" onkeydown="if (event.keyCode == 13) changelistStyle()" >Remove Bullets: list-style-type:none;<br>
+			<input id="listinputone" type="radio" name="stylinglist" onclick="if (event.keyCode == 13) changelistStyle1()" >Remove Bullets: list-style-type:none;<br>
 
-			<input type="checkbox" name="stylinglist" value="l2" onkeydown="if (event.keyCode == 13) changelistStyle()" >Add Bullets: list-style-type:disc;<br>
+			<input id="listinputtwo"  type="radio" name="stylinglist" onclick="if (event.keyCode == 13) changelistStyle2()" >Add Bullets: list-style-type:disc;<br>
 
-			<input type="checkbox" name="stylinglist" value="l3" onkeydown="if (event.keyCode == 13) changelistStyle()" >Add Nmbered Bullets (acts as an ordered list): list-style-type:decimal;<br>
+			<input id="listinputthree"  type="radio" name="stylinglist" onclick="if (event.keyCode == 13) changelistStyle3()" >Add Nmbered Bullets (acts as an ordered list): list-style-type:decimal;<br>
 			
 			
 		</div>
@@ -129,12 +129,16 @@ ul{
 
 
 
-	function changelistStyle(){
+	function changelistStyle1(){
+		$("master-ecom-list-target").css({"list-style-type":"none"});
+	}
+	function changelistStyle2(){
 
-		var valueis=$("stylinglist").attr("value");
-		console.log(valueis);
-		
-		
+		$("master-ecom-list-target").css({"list-style-type":"disc"});	
+	}
+	function changelistStyle3(){
+
+		$("master-ecom-list-target").css({"list-style-type":"numeric"});
 	}
 
 
