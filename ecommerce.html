@@ -115,7 +115,7 @@ input{
 		<div class="master-ecom-headerSection">
 
 			<h2 class="master-ecom-h2-default">HEADER SECTION</h2>
-			<p>Header tags should be nested appropriately. H1 tags are the most important and H6 is the least. Please talk with Bill regarding which tag to use becuase these play a role in SEO</p>
+			<p>Header tags should be nested appropriately. H1 tags are the most important and H6 is the least. Please talk with Bill regarding which tag to use becuase these play a role in SEO. Please visit <a href="http://www.w3schools.com/tags/tag_hn.asp" target="_blank">W3 Schools</a> for more indpeth examples.</p>
 
 			<h1>&lth1&gtFreshDirect H1 Tag&lt/h1&gt</h1>
 			<h2>&lth2&gtFreshDirect H2 Tag&lt/h2&gt</h2>
@@ -129,14 +129,14 @@ input{
 		<div class="master-ecom-listSection">
 			<h2 class="master-ecom-h2-default">LIST SECTION</h2>
 
-			<p>Unordered List: &ltul&gt&lt/ul&gt</p>
+			<p>Unordered List: &ltul&gt&lt/ul&gt are what we typically use. Please visit <a href="http://www.w3schools.com/html/html_lists.asp" target="_blank">W3 Schools</a> for more indpeth examples.</p>
 			<ul id="master-ecom-list-target">
 				<li>Here</li>
 				<li>We</li>
 				<li>Go</li>
 			</ul>
 
-			<p>Please select a style below to see the styling in action:</p>
+			<p>Please select a style below to see the styling of the above list in action:</p>
 
 			<input id="listinputone" type="radio" name="stylinglist" onclick = "changelistStyle1()" > Remove Bullets: list-style-type:none;<br>
 
@@ -150,81 +150,66 @@ input{
 		<div class="master-ecom-marginSection">
 			<h2 class="master-ecom-h2-default">MARGIN SECTION</h2>
 
-			<p>Margins are used to add spacing between elements. Shorthand is margin:0px which would assign 0 to all top, right, left, and bottom margins. Shorthand can also be written as margin:0px 0px 0px 0px to specif targeting. Long hand margins seen in the below example can be defined as such margin-bottom:0xp and so forth. Play with the below example by entering margins to get a live feel for how this property works.</p>
+			<p>Margins are used to add spacing between elements. Shorthand is margin:0px which would assign 0 to all top, right, left, and bottom margins. Shorthand can also be written as margin:0px 0px 0px 0px to specif targeting. Long hand margins seen in the below example can be defined as such margin-bottom:0xp and so forth. Play with the below example by entering margins to get a live feel for how this property works. Please visit <a href="http://www.w3schools.com/css/css_margin.asp" target="_blank">W3 Schools</a> for more indpeth examples.</p>
 
 			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px"  onkeydown = "if (event.keyCode == 13) changemargin5()">
 
-			
+			<div id="master-ecom-div-target">
+				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px"  onkeydown = "if (event.keyCode == 13) changemargin1()" >
 
-			
+				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px"  onkeydown = "if (event.keyCode == 13) changemargin2()">
 
+				<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px"  onkeydown = "if (event.keyCode == 13) changemargin3()">
 
-		<div id="master-ecom-div-target">
-			<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px"  onkeydown = "if (event.keyCode == 13) changemargin1()" >
-
-			<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px"  onkeydown = "if (event.keyCode == 13) changemargin2()">
-
-			<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px"  onkeydown = "if (event.keyCode == 13) changemargin3()">
-
-			<input type="text" aria-label="input" id="marginleftDiv" placeholder="margin-left:0px"  onkeydown = "if (event.keyCode == 13) changemargin4()">
-		</div>
-
-
-			
-
+				<input type="text" aria-label="input" id="marginleftDiv" placeholder="margin-left:0px"  onkeydown = "if (event.keyCode == 13) changemargin4()">
+			</div>
 
 		</div>
-
-
-
 
 	</div>
   <!--<script src="js/scripts.js"></script>-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-<script type="text/javascript">
+	<script type="text/javascript">
 
-	function changelistStyle1(){
-		$("ul#master-ecom-list-target").css({"list-style-type":"none"});
-	}
-	function changelistStyle2(){
-		$("ul#master-ecom-list-target").css({"list-style-type":"disc"});	
-	}
-	function changelistStyle3(){
-		$("ul#master-ecom-list-target").css({"list-style-type":"decimal"});
-	}
-	function changemargin1(){
-		console.log("1");
-		var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginTop": input});
-	}
-	function changemargin2(){
-		console.log("2");
-		var input=document.getElementById('marginrightDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginRight": input});
-	}
-	function changemargin3(){
-		console.log("3");
-		var input=document.getElementById('marginbottomDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginBottom": input});
-	}
-	function changemargin4(){
-		console.log("4");
-		var input=document.getElementById('marginleftDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginLeft": input});
-	}
-	function changemargin5(){
-		console.log("5");
-		var input=document.getElementById('marginmasterDiv').value.replace(/\s+/g,' ').trim();
-		console.log(input.length);
-		$("div#master-ecom-div-target").animate({"margin": input});
-	}
+		function changelistStyle1(){
+			$("ul#master-ecom-list-target").css({"list-style-type":"none"});
+		}
+		function changelistStyle2(){
+			$("ul#master-ecom-list-target").css({"list-style-type":"disc"});	
+		}
+		function changelistStyle3(){
+			$("ul#master-ecom-list-target").css({"list-style-type":"decimal"});
+		}
+		function changemargin1(){
+			console.log("1");
+			var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
+			$("div#master-ecom-div-target").animate({"marginTop": input});
+		}
+		function changemargin2(){
+			console.log("2");
+			var input=document.getElementById('marginrightDiv').value.replace(/\s+/g,' ').trim();
+			$("div#master-ecom-div-target").animate({"marginRight": input});
+		}
+		function changemargin3(){
+			console.log("3");
+			var input=document.getElementById('marginbottomDiv').value.replace(/\s+/g,' ').trim();
+			$("div#master-ecom-div-target").animate({"marginBottom": input});
+		}
+		function changemargin4(){
+			console.log("4");
+			var input=document.getElementById('marginleftDiv').value.replace(/\s+/g,' ').trim();
+			$("div#master-ecom-div-target").animate({"marginLeft": input});
+		}
+		function changemargin5(){
+			console.log("5");
+			var input=document.getElementById('marginmasterDiv').value.replace(/\s+/g,' ').trim();
+			console.log(input.length);
+			$("div#master-ecom-div-target").animate({"margin": input});
+		}
 
-	
-
-
-</script>
+	</script>
 
 </body>
 </html>
