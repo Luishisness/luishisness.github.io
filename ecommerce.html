@@ -245,12 +245,10 @@ input{
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
 
-		$('.master-ecom-header').on('click', '.master-ecom-nav-anchor', function () {
+		$('ul.master-ecom-nav').on('click', 'li.master-ecom-nav-anchor', function () {
 
 		  	var navAnchor= $(this).attr('href'),
 	  		bodyHtml=$("html, body");
-
-	  		alert(jQuery(this).attr('href'));
 
 	 		bodyHtml.animate({
 		       	scrollTop: $(navAnchor).offset().top
