@@ -250,6 +250,8 @@ input{
 		  	var navAnchor= $(this).attr('href'),
 	  		bodyHtml=$("html, body");
 
+	  		alert(jQuery(this).attr('href'));
+
 	 		bodyHtml.animate({
 		       	scrollTop: $(navAnchor).offset().top
 			}, 2000);
