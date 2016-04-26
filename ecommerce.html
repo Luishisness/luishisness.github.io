@@ -60,6 +60,23 @@
 	background-color: red;
 }
 
+#margintopDiv{
+	position:absolute;
+	margin: 0 0 0 0;
+}
+#marginrightDiv{
+	position:absolute;
+	margin: 0 0 0 0;
+}
+#marginbottomDiv{
+	position:absolute;
+	margin: 0 0 0 0;
+}
+#marginleftDiv{
+	position:absolute;
+	margin: 0 0 0 0;
+}
+
 /*-----------SHARED STYLES-------------------*/
 .master-ecom-h2-default{
 	text-align:center;
@@ -125,7 +142,7 @@ input{
 		<div class="master-ecom-marginSection">
 			<h2 class="master-ecom-h2-default">MARGIN SECTION</h2>
 
-
+			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin5()"> Top Right Bottom Left<br>
 
 			<input type="text" aria-label="input" id="margintopDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin1()" > Top Margin<br>
 
@@ -135,7 +152,7 @@ input{
 
 			<input type="text" aria-label="input" id="marginleftDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin4()"> Left Margin<br>
 
-			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin5()"> Top Right Bottom Left<br>
+			
 
 
 			<div id="master-ecom-div-target"></div>
