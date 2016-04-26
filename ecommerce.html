@@ -58,23 +58,27 @@
 	width: 300px;
 	height:300px;
 	background-color: red;
-	margin-bottom: 35px;
 }
 
 #margintopDiv{
+	position: absolute;
 	margin: 0 0 0 0;
 }
 #marginrightDiv{
+	position: absolute;
 	margin: 0 0 0 0;
 }
 #marginbottomDiv{
+	position: absolute;
 	margin: 0 0 0 0;
 }
 #marginleftDiv{
+	position: absolute;
 	margin: 0 0 0 0;
 }
 #marginmasterDiv{
-	margin-bottom: 40px;
+	position: absolute;
+	margin: 0 0 0 0;
 }
 /*-----------SHARED STYLES-------------------*/
 .master-ecom-h2-default{
@@ -90,7 +94,6 @@ ul{
 
 input{
 	margin-bottom:10px;
-	display:block;
 }
 </style>
 
@@ -149,9 +152,7 @@ input{
 			
 
 
-			<div id="master-ecom-div-target"></div>
-
-
+		<div id="master-ecom-div-target">
 			<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px"  onkeydown = "if (event.keyCode == 13) changemargin1()" >
 
 			<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px"  onkeydown = "if (event.keyCode == 13) changemargin2()">
@@ -159,6 +160,10 @@ input{
 			<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px"  onkeydown = "if (event.keyCode == 13) changemargin3()">
 
 			<input type="text" aria-label="input" id="marginleftDiv" placeholder="margin-left:0px"  onkeydown = "if (event.keyCode == 13) changemargin4()">
+		</div>
+
+
+			
 
 
 		</div>
