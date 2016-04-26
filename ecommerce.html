@@ -136,10 +136,10 @@ input{
 
 			<h1>FreshDirect Ecommerce HTML5 &amp; CSS3 Guide</h1>
 			<ul class="master-ecom-nav">
-			  <li><a href="#headers">Headers</a></li>
-			  <li><a href="#lists">Lists</a></li>
-			  <li><a href="#margins">Margins</a></li>
-			  <li><a href="#pickslistOne">PicksList One</a></li>
+			  <li class="master-ecom-nav-anchor"><a href="#headers">Headers</a></li>
+			  <li class="master-ecom-nav-anchor"><a href="#lists">Lists</a></li>
+			  <li class="master-ecom-nav-anchor"><a href="#margins">Margins</a></li>
+			  <li class="master-ecom-nav-anchor"><a href="#pickslistOne">PicksList One</a></li>
 			</ul>
 		</div>
 
@@ -245,13 +245,13 @@ input{
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
 
-		$('ul.master-ecom-nav').on('click', '.master-ecom-nav', function () {
+		$('.master-ecom-nav').on('click', '.master-ecom-nav-anchor', function () {
 
-		  	var productrecallID= $(this).attr('href'),
+		  	var navAnchor= $(this).attr('href'),
 	  		bodyHtml=$("html, body");
 
 	 		bodyHtml.animate({
-		       	scrollTop: $(productrecallID).offset().top
+		       	scrollTop: $(navAnchor).offset().top
 			}, 2000);
  		});
   
