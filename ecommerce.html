@@ -200,9 +200,9 @@ input{
 			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px"  onkeydown = "if (event.keyCode == 13) changemargin5()">
 
 			<div id="master-ecom-div-target">
-				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px"  onkeydown = "if (event.keyCode == 13) " >
+				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px" >
 
-				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px"  onkeydown = "if (event.keyCode == 13) ">
+				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px">
 
 				<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px"  onkeydown = "if (event.keyCode == 13) changemargin3()">
 
@@ -293,9 +293,14 @@ input{
 		
 			
 
-			$("div#master-ecom-div-target input").keypress(function(){
-				var href = $(this).attr('href');
-    			alert(href+ "input paragraph was clicked.");
+			$("div#master-ecom-div-target input").keypress(function(e){
+				//var href = $(this).attr('href');
+    			//alert(href+ "input paragraph was clicked.");
+
+    			if (e.which == 13) {
+    				var href = $(this).attr('href');
+    				alert(href+ "input paragraph was clicked.");
+  				}
 			});
 		
 
