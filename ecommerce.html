@@ -50,9 +50,20 @@
 }
 
 #master-ecom-div-target{
+	background-color: yellow;
+}
+
+.master-ecom-div-target-a{
+	float:left;
 	width: 300px;
 	height:300px;
 	background-color: red;
+}
+.master-ecom-div-target-b{
+	float:right;
+	width: 300px;
+	height:300px;
+	background-color: green;
 }
 /*-----------SHARED STYLES-------------------*/
 .master-ecom-h2-default{
@@ -119,6 +130,8 @@ input{
 		<div class="master-ecom-marginSection">
 			<h2 class="master-ecom-h2-default">MARGIN SECTION</h2>
 
+
+
 			<input type="text" aria-label="input" id="margintopDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin1()" > Top Margin<br>
 
 			<input type="text" aria-label="input" id="marginrightDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin2()"> Right Margin<br>
@@ -130,7 +143,9 @@ input{
 			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="Enter Margin(s)"  onkeydown = "if (event.keyCode == 13) changemargin5()"> Top Right Bottom Left<br>
 
 
-			<div id="master-ecom-div-target"></div>
+			<div id="master-ecom-div-target-a"></div>
+
+			<div id="master-ecom-div-target-b"></div>
 
 		</div>
 
@@ -156,22 +171,24 @@ input{
 	function changemargin1(){
 		console.log("1");
 		var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginTop": input});
+		$("div#master-ecom-div-target-a").animate({"marginTop": input});
+		$("div#master-ecom-div-target-b").animate({"marginTop": input});
 	}
 	function changemargin2(){
 		console.log("2");
 		var input=document.getElementById('marginrightDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginRight": input});
+		$("div#master-ecom-div-target-b").animate({"marginRight": input});
 	}
 	function changemargin3(){
 		console.log("3");
 		var input=document.getElementById('marginbottomDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginBottom": input});
+		$("div#master-ecom-div-target-a").animate({"marginBottom": input});
+		$("div#master-ecom-div-target-b").animate({"marginBottom": input});
 	}
 	function changemargin4(){
 		console.log("4");
 		var input=document.getElementById('marginleftDiv').value.replace(/\s+/g,' ').trim();
-		$("div#master-ecom-div-target").animate({"marginLeft": input});
+		$("div#master-ecom-div-target-a").animate({"marginLeft": input});
 	}
 	function changemargin5(){
 		console.log("5");
