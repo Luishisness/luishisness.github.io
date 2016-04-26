@@ -157,7 +157,7 @@ input{
 		console.log("margin function called");
 		var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
 		console.log(typeof input + "" +input);
-		$("div#master-ecom-div-target").css({"margin-top": input});
+		$("div#master-ecom-div-target").animate({"marginTop": input});
 	}
 
 	
