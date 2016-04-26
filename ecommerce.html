@@ -245,6 +245,18 @@ input{
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
 
+		$('ul.master-ecom-nav').on('click', '.master-ecom-nav', function () {
+
+		  	var productrecallID= $(this).attr('href'),
+	  		bodyHtml=$("html, body");
+
+	 		bodyHtml.animate({
+		       	scrollTop: $(productrecallID).offset().top
+			}, 2000);
+ 		}
+  
+  });
+
 	</script>
 
 </body>
