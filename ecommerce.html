@@ -245,7 +245,7 @@ input{
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
 
-		$('li.master-ecom-nav-anchor').on('click', function () {
+		$('.master-ecom-header').on('click', '.master-ecom-nav-anchor', function () {
 
 		  	var navAnchor= $(this).attr('href'),
 	  		bodyHtml=$("html, body");
