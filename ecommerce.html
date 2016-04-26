@@ -156,6 +156,7 @@ input{
 	function changemargin1(){
 		console.log("margin function called");
 		var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
+		console.log(input);
 		$("div#master-ecom-div-target").css({"margin-top": input});
 	}
 
