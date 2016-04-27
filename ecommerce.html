@@ -150,10 +150,10 @@ input{
 
 			<h1>FreshDirect Ecommerce HTML5 &amp; CSS3 Guide</h1>
 			<ul class="master-ecom-nav">
-			  <li class="master-ecom-nav-anchor"><a href="#headers">Headers</a></li>
-			  <li class="master-ecom-nav-anchor"><a href="#lists">Lists</a></li>
-			  <li class="master-ecom-nav-anchor"><a href="#margins">Margins</a></li>
-			  <li class="master-ecom-nav-anchor"><a href="#pickslistOne">PicksList One</a></li>
+			  <li><a class="master-ecom-nav-anchor" href="#headers">Headers</a></li>
+			  <li><a class="master-ecom-nav-anchor" href="#lists">Lists</a></li>
+			  <li><a class="master-ecom-nav-anchor" href="#margins">Margins</a></li>
+			  <li><a class="master-ecom-nav-anchor" href="#pickslistOne">PicksList One</a></li>
 			</ul>
 		</div>
 
@@ -200,9 +200,9 @@ input{
 			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px"  onkeydown = "if (event.keyCode == 13) changemargin5()">
 
 			<div id="master-ecom-div-target">
-				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px" >
+				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px" onkeydown = "if (event.keyCode == 13) changemargin1()">
 
-				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px">
+				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px" onkeydown = "if (event.keyCode == 13) changemargin2()">
 
 				<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px"  onkeydown = "if (event.keyCode == 13) changemargin3()">
 
@@ -290,30 +290,18 @@ input{
 			console.log(input.length);
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
-		
-			
 
-			$("#master-ecom-div-target input").keypress(function(e){
-				//var href = $(this).attr('href');
-    			//alert(href+ "input paragraph was clicked.");
+		$('.master-ecom-nav').on('click', '.master-ecom-nav-anchor', function () {
 
-    			if (e.which == 13) {
-    				var href = $(this).attr('href');
-    				alert(href+ "input paragraph was clicked.");
-    				return false;
-  				}
-			});
-		
+	  		var navAnchorID= $(this).attr('href'),
+  			bodyHtml=$("html, body");
 
-		/*$('ul.master-ecom-nav').on('click', 'li.master-ecom-nav-anchor', function () {
+			alert($(this).attr('href'));
 
-		  	var navAnchor= $(this).attr('href'),
-	  		bodyHtml=$("html, body");
-
-	 		bodyHtml.animate({
-		       	scrollTop: $(navAnchor).offset().top
+ 			bodyHtml.animate({
+	       		scrollTop: $(navAnchorID).offset().top
 			}, 2000);
- 		});*/
+  		});
   
 
 
