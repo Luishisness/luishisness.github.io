@@ -303,9 +303,35 @@ input{
 		//Margin Section animate margins
 		$('.master-ecom-marginSection').on('keypress', '.master-ecom-margin-anchor', function (event) {
 
-				if(event.keyCode==13){
-				var marginID= $(this).attr('id');
-				console.log(marginID);}
+			if(event.keyCode==13){
+				var marginID= $(this).attr('id'),
+					input=marginID.value.replace(/\s+/g,' ').trim();
+
+				console.log(marginID);
+
+				switch (marginID) {
+				    case 0:
+				        id = "marginmasterDiv";
+				        $("div#master-ecom-div-target").animate({"margin": input});
+				        break;
+				    case 1:
+				        day = "margintopDiv";
+				        $("div#master-ecom-div-target").animate({"marginTop": input});
+				        break;
+				    case 2:
+				        day = "marginrightDiv";
+				        $("div#master-ecom-div-target").animate({"marginRight": input});
+				        break;
+				    case 3:
+				        day = "marginbottomDiv";
+				        $("div#master-ecom-div-target").animate({"marginBottom": input});
+				        break;
+				    case 4:
+				        day = "marginleftDiv";
+				        $("div#master-ecom-div-target").animate({"marginLeft": input});
+				        break;
+				}
+			}
 
 			
   		});
