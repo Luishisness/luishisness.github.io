@@ -265,50 +265,12 @@ input{
 			$("ul#master-ecom-list-target").css({"list-style-type":"decimal"});
 		}
 
-
-		function changemargin1(){
-			console.log("1");
-			var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
-			$("div#master-ecom-div-target").animate({"marginTop": input});
-		}
-		function changemargin2(){
-			console.log("2");
-			var input=document.getElementById('marginrightDiv').value.replace(/\s+/g,' ').trim();
-			$("div#master-ecom-div-target").animate({"marginRight": input});
-		}
-		function changemargin3(){
-			console.log("3");
-			var input=document.getElementById('marginbottomDiv').value.replace(/\s+/g,' ').trim();
-			$("div#master-ecom-div-target").animate({"marginBottom": input});
-		}
-		function changemargin4(){
-			console.log("4");
-			var input=document.getElementById('marginleftDiv').value.replace(/\s+/g,' ').trim();
-			$("div#master-ecom-div-target").animate({"marginLeft": input});
-		}
-		function changemargin5(){
-			console.log("5");
-			var input=document.getElementById('marginmasterDiv').value.replace(/\s+/g,' ').trim();
-			console.log(input.length);
-			$("div#master-ecom-div-target").animate({"margin": input});
-		}
-
-		function changemargintest(){
-			console.log("5");
-			var input=document.getElementById('marginmasterDiv').value.replace(/\s+/g,' ').trim();
-			console.log(input.length);
-			$("div#master-ecom-div-target").animate({"margin": input});
-		}
-
 		//Margin Section animate margins
-		$('.master-ecom-marginSection').on('keypress', '.master-ecom-margin-anchor', function (event) {
-			//var bla = $('#txt_name').val();
+		//$('.master-ecom-marginSection').on('keypress', '.master-ecom-margin-anchor', function (event) {
+			$('.master-ecom-marginSection').on('keypress', '.master-ecom-marginSection input', function (event) {
 			if(event.keyCode==13){
 				var marginID= $(this).attr('id'),
 					input=$(this).val().replace(/\s+/g,' ').trim();
-				console.log(input);
-				console.log(marginID);
-
 				switch (marginID) {
 				    case "marginmasterDiv":
 				        $("div#master-ecom-div-target").animate({"margin": input});
@@ -326,9 +288,7 @@ input{
 				        $("div#master-ecom-div-target").animate({"marginLeft": input});
 				        break;
 				}
-			}
-
-			
+			}	
   		});
 
 		//Anchoring for ecomm navigation
@@ -340,9 +300,6 @@ input{
 	       		scrollTop: $(navAnchorID).offset().top
 			}, 2000);
   		});
-  
-
-
 	</script>
 
 </body>
