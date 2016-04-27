@@ -200,7 +200,7 @@ input{
 			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px"  onkeydown = "if (event.keyCode == 13) changemargin5()">
 
 			<div id="master-ecom-div-target">
-				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px" onkeydown = "if (event.keyCode == 13) changemargin1()">
+				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px">
 
 				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px" onkeydown = "if (event.keyCode == 13) changemargin2()">
 
@@ -264,6 +264,8 @@ input{
 		function changelistStyle3(){
 			$("ul#master-ecom-list-target").css({"list-style-type":"decimal"});
 		}
+
+
 		function changemargin1(){
 			console.log("1");
 			var input=document.getElementById('margintopDiv').value.replace(/\s+/g,' ').trim();
@@ -291,13 +293,29 @@ input{
 			$("div#master-ecom-div-target").animate({"margin": input});
 		}
 
+		function changemargintest(){
+			console.log("5");
+			var input=document.getElementById('marginmasterDiv').value.replace(/\s+/g,' ').trim();
+			console.log(input.length);
+			$("div#master-ecom-div-target").animate({"margin": input});
+		}
+
+		//Margin Section animate margins
+		$('.master-ecom-marginSection').on('keypress', '.master-ecom-marginSection input', function (event) {
+
+			if(event.keyCode == 13){
+
+				var marginID= $(this).attr('id');
+				console.log(marginID);
+
+			}
+  		});
+
+		//Anchoring for ecomm navigation
 		$('.master-ecom-nav').on('click', '.master-ecom-nav-anchor', function () {
 
 	  		var navAnchorID= $(this).attr('href'),
   			bodyHtml=$("html, body");
-
-			//alert($(this).attr('href'));
-
  			bodyHtml.animate({
 	       		scrollTop: $(navAnchorID).offset().top
 			}, 2000);
