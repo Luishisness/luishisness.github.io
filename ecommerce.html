@@ -197,16 +197,16 @@ input{
 
 			<p>Margins are used to add spacing between elements. Shorthand is margin:0px which would assign 0 to all top, right, left, and bottom margins. Shorthand can also be written as margin:0px 0px 0px 0px to specif targeting. Long hand margins seen in the below example can be defined as such margin-bottom:0xp and so forth. Play with the below example by entering margins to get a live feel for how this property works. Please visit <a href="http://www.w3schools.com/css/css_margin.asp" target="_blank">W3 Schools</a> for more indpeth examples.</p>
 
-			<input type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px">
+			<input class="master-ecom-margin-anchor" type="text" aria-label="input" id="marginmasterDiv" placeholder="margin: 0px 0px 0px 0px">
 
 			<div id="master-ecom-div-target">
-				<input type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px">
+				<input class="master-ecom-margin-anchor" type="text" aria-label="input" id="margintopDiv" placeholder="margin-top:0px">
 
-				<input type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px">
+				<input class="master-ecom-margin-anchor" type="text" aria-label="input" id="marginrightDiv" placeholder="margin-right:0px">
 
-				<input type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px">
+				<input class="master-ecom-margin-anchor" type="text" aria-label="input" id="marginbottomDiv" placeholder="margin-bottom:0px">
 
-				<input type="text" aria-label="input" id="marginleftDiv" placeholder="margin-left:0px">
+				<input class="master-ecom-margin-anchor" type="text" aria-label="input" id="marginleftDiv" placeholder="margin-left:0px">
 			</div>
 
 		</div>
@@ -301,7 +301,7 @@ input{
 		}
 
 		//Margin Section animate margins
-		$('.master-ecom-marginSection').on('keypress', '.master-ecom-marginSection input', function () {
+		$('.master-ecom-marginSection').on('keypress', 'master-ecom-margin-anchor', function () {
 
 
 				var marginID= $(this).attr('id');
