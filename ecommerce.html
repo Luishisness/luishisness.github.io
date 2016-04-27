@@ -305,7 +305,7 @@ input{
 
 			if(event.keyCode==13){
 				var marginID= $(this).attr('id');
-					//input=marginID.value.replace(/\s+/g,' ').trim();
+					input=marginID.value().replace(/\s+/g,' ').trim();
 
 				console.log(marginID);
 
