@@ -310,24 +310,19 @@ input{
 				console.log(marginID);
 
 				switch (marginID) {
-				    case 0:
-				        id = "marginmasterDiv";
+				    case "marginmasterDiv":
 				        $("div#master-ecom-div-target").animate({"margin": input});
 				        break;
-				    case 1:
-				        day = "margintopDiv";
+				    case "margintopDiv":
 				        $("div#master-ecom-div-target").animate({"marginTop": input});
 				        break;
-				    case 2:
-				        day = "marginrightDiv";
+				    case "marginrightDiv":
 				        $("div#master-ecom-div-target").animate({"marginRight": input});
 				        break;
-				    case 3:
-				        day = "marginbottomDiv";
+				    case "marginbottomDiv":
 				        $("div#master-ecom-div-target").animate({"marginBottom": input});
 				        break;
-				    case 4:
-				        day = "marginleftDiv";
+				    case "marginleftDiv":
 				        $("div#master-ecom-div-target").animate({"marginLeft": input});
 				        break;
 				}
