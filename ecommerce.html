@@ -302,11 +302,11 @@ input{
 
 		//Margin Section animate margins
 		$('.master-ecom-marginSection').on('keypress', '.master-ecom-margin-anchor', function (event) {
-
+			//var bla = $('#txt_name').val();
 			if(event.keyCode==13){
 				var marginID= $(this).attr('id');
-					input=marginID.value().replace(/\s+/g,' ').trim();
-
+					input=$(this).value.replace(/\s+/g,' ').trim();
+				console.log(input);
 				console.log(marginID);
 
 				switch (marginID) {
