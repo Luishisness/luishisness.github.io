@@ -237,7 +237,7 @@ input{
 			<input type="text" class="master-ecom-picksOne-anchor" aria-label="input" id="listpicksBullets" placeholder="list-style-type: none;">
 
 
-			<div class="master-ecom-pickslistOne-div" id="master-ecom-pickOne-container">
+			<div id="master-ecom-pickOne-container">
 				<h3>Beer and Cider</h3>
 				<ul>
 					<li>Alcohol cannot be delivered outside of New York state.</li>
@@ -297,23 +297,32 @@ input{
 					input=$(this).val().replace(/\s+/g,' ').trim();
 
 					console.log(picksID);
-				/*switch (marginID) {
-				    case "marginmasterDiv":
-				        $("div#master-ecom-div-target").animate({"margin": input});
+				switch (picksID) {
+				    case "divpicksMargin":
+				        $("div#master-ecom-pickOne-container").animate({"margin": input});
 				        break;
-				    case "margintopDiv":
-				        $("div#master-ecom-div-target").animate({"marginTop": input});
+				    case "divpicksBorder":
+				        $("div#master-ecom-pickOne-container").animate({"border": input});
 				        break;
-				    case "marginrightDiv":
-				        $("div#master-ecom-div-target").animate({"marginRight": input});
+				    case "h3picksMargin":
+				        $("div#master-ecom-pickOne-container h3").animate({"margin": input});
 				        break;
-				    case "marginbottomDiv":
-				        $("div#master-ecom-div-target").animate({"marginBottom": input});
+				    case "h3picksFontSize":
+				        $("div#master-ecom-pickOne-container h3").animate({"font-size": input});
 				        break;
-				    case "marginleftDiv":
-				        $("div#master-ecom-div-target").animate({"marginLeft": input});
+				    case "listpicksPadding":
+				        $("div#master-ecom-pickOne-container ul").animate({"padding": input});
 				        break;
-				}*/
+				    case "listpicksMargin":
+				        $("div#master-ecom-pickOne-container ul").animate({"margin": input});
+				        break;
+				     case "listpicksFontSize":
+				        $("div#master-ecom-pickOne-container ul").animate({"font-size": input});
+				        break;
+				    case "listpicksBullets":
+				        $("div#master-ecom-pickOne-container ul").animate({"list-style-type": input});
+				        break; 
+				}
 			}	
   		});
 
