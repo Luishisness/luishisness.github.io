@@ -218,23 +218,23 @@ input{
 
 			<p>EX: A <a href="https://www.freshdirect.com/browse.jsp?pageType=browse&id=picks_passover_bev_4&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product" target="_blank">https://www.freshdirect.com/browse.jsp?pageType=browse&id=picks_passover_bev_4&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product</a></p>
 
-			<p>DIV: Picklist container style control border color is red.</p>
+			<p>DIV: Picklist container style control: border color is red.</p>
 
 			<!--Input needs to be grouped-->
-			<input type="text" aria-label="input" id="" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
-			<input type="text" aria-label="input" id="" placeholder="border: 1px solid red;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="divpicksMargin" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="divpicksBorder" placeholder="border: 1px solid red;"  onkeydown = "if (event.keyCode == 13)" >
 			
 
-			<p>H3: Header style control background color is yellow</p>
-			<input type="text" aria-label="input" id="" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
-			<input type="text" aria-label="input" id="" placeholder="font-size: 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<p>H3: Header style control: background color is yellow</p>
+			<input type="text" aria-label="input" id="h3picksMargin" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="h3picksFontSize" placeholder="font-size: 0px;"  onkeydown = "if (event.keyCode == 13)" >
 			
 
-			<p>UL: List style control background color is red</p>
-			<input type="text" aria-label="input" id="" placeholder="padding: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
-			<input type="text" aria-label="input" id="" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
-			<input type="text" aria-label="input" id="" placeholder="font-size: 0px;"  onkeydown = "if (event.keyCode == 13)" >
-			<input type="text" aria-label="input" id="" placeholder="list-style-type: none;"  onkeydown = "if (event.keyCode == 13)" >
+			<p>UL: List style control: background color is red</p>
+			<input type="text" aria-label="input" id="listpicksPadding" placeholder="padding: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="listpicksMargin" placeholder="margin: 0px 0px 0px 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="listpicksFontSize" placeholder="font-size: 0px;"  onkeydown = "if (event.keyCode == 13)" >
+			<input type="text" aria-label="input" id="listpicksBullets" placeholder="list-style-type: none;"  onkeydown = "if (event.keyCode == 13)" >
 
 
 			<div class="master-ecom-pickslistOne-div" id="master-ecom-pickOne-container">
@@ -287,6 +287,33 @@ input{
 				        $("div#master-ecom-div-target").animate({"marginLeft": input});
 				        break;
 				}
+			}	
+  		});
+
+  		//Margin Section animate margins
+		$('.master-ecom-pickslistOne').on('keypress', '.master-ecom-pickslistOne input', function (event) {
+			if(event.keyCode==13){
+				var picksID= $(this).attr('id'),
+					input=$(this).val().replace(/\s+/g,' ').trim();
+
+					console.log(picksID);
+				/*switch (marginID) {
+				    case "marginmasterDiv":
+				        $("div#master-ecom-div-target").animate({"margin": input});
+				        break;
+				    case "margintopDiv":
+				        $("div#master-ecom-div-target").animate({"marginTop": input});
+				        break;
+				    case "marginrightDiv":
+				        $("div#master-ecom-div-target").animate({"marginRight": input});
+				        break;
+				    case "marginbottomDiv":
+				        $("div#master-ecom-div-target").animate({"marginBottom": input});
+				        break;
+				    case "marginleftDiv":
+				        $("div#master-ecom-div-target").animate({"marginLeft": input});
+				        break;
+				}*/
 			}	
   		});
 
