@@ -1,0 +1,35 @@
+Klixel8 
+
+PROS:
+- Interactive Image
+- Great for lifestyle images (ie a table or ilse full of food)
+- Shopping on page
+	-Or simply clicking into a picklist.
+- Helps with overlaping divs on the front end architecture
+	-Designs free flowing pages
+- Fairly easy to set up on my end.
+
+
+CONS:
+- User experience is not intuitive 
+	-have to click/press and hold to keep content box in place or scroll very quickly.
+- Issues fetching Klixel8 data during prototype testing.
+- Klixel8 fail loads a static image rendering the idea of Klixel8 taking up image space useless
+- Image cannot take up full page (as with the built prototype)
+	- No scrolling on klixel8 image.
+- Asset update
+	- Image needs to be relayered in order for klixel8 to register the new layer.
+	- Code would need to be updated.
+
+FD Challenges: 
+- Cannot be used on the Wordpress blog
+	-FD product data objects is not linked to blog
+- Data issues in regards to store front:
+	- Store front need access to full silo of FD product data objects to get the most use out of klixel8 software
+	- Currenyly Product data for store front is only available on pages where the product lives
+		-Taking this route causes reduncancy becuase the product is already on the FD loaded page
+		-RTS centrals do not have access to any FD product object data. 
+- Appdev involvemnet required for access to all fd product object data. 
+- Design needs some training on how to use the photoshop portion.
+	-Properly naming layers
+	-Loading onto klixel8 server
