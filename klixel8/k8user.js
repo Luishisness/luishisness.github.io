@@ -182,7 +182,7 @@ var winH;
 var winW;
 
 //getBrowserSize is optional, used to resize height of non-Klixel8 page resources
-/*function getBrowserSize() {
+function getBrowserSize() {
     if (document.body && document.body.offsetWidth) {
             winW = document.body.offsetWidth;
             winH = document.body.offsetHeight;
@@ -218,6 +218,6 @@ function sizeDiv()
 
 //required for responsive images, call sizeDiv when page is loaded or resized
 window.addEventListener('load', sizeDiv);
-window.addEventListener('resize', sizeDiv);*/
+window.addEventListener('resize', sizeDiv);
 
 
