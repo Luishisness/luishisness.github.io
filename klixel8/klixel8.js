@@ -1,6 +1,6 @@
 /************************************************************* 
-Benevoltek Klixel8� Image Map Collection Data Processing
-Copyright (�) 2016 Benevoltek, Inc. All Rights Reserved
+Benevoltek Klixel8® Image Map Collection Data Processing
+Copyright (©) 2016 Benevoltek, Inc. All Rights Reserved
 v2.0.1
 **************************************************************/
 
