@@ -24,60 +24,60 @@ function fd_loadImage(k8data){
         switch(k8data.layerName) {
             case "burgers":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='cookout-classics.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/burger.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/burger.png' alt=''></div>";
                 break;
             case "salmon":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='seafood.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/salmon.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/salmon.png' alt=''></div>";
                 break;
             case "pickles":
                 //p.innerHTML="<div><h2>Pickles</h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/pickles.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/pickles.png' alt=''></div>";
                 break;
             case "watermelon":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='fruits.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/melon.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/melon.png' alt=''></div>";
                 break;
             case "grilledveg":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='fruits.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/mixedveg.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/mixedveg.png' alt=''></div>";
                 break;
             case "glad":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='summer-stocup.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/glad.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/glad.png' alt=''></div>";
                 break;
             case "papertowel":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='summer-stocup.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/paper.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/paper.png' alt=''></div>";
                 break;
             case "salad":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='summer-stocup.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/dressing.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/dressing.png' alt=''></div>";
                 break;
             case "wineone":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='beer.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/winea.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/winea.png' alt=''></div>";
                 break;
             case "winetwo":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='beer.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/winea.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/winea.png' alt=''></div>";
                 break;
             case "bai":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='cold-drinks.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/bai.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/bai.png' alt=''></div>";
                 break;
             case "pretzels":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='snacks-copy.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/pretz.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/pretz.png' alt=''></div>";
                 break;
             case "icecream":
                 //code block
                 //p.innerHTML="<div><a href='#' target='_blank'><h2><img src='sizzlin-copy.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Get Inspired<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/ice.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/ice.png' alt=''></div>";
                 break;
             case "brownies":
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='snacks-copy.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
-                p.innerHTML="<div><img src='luishisness.github.io/klixel8/shop_images/brown.png' alt=''></div>";
+                p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/brown.png' alt=''></div>";
                 break;
         }
         return;
