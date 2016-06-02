@@ -141,6 +141,7 @@ function klixel8PressAndHold(k8data) {
     /*var p = gId('popout');
 	p.innerHTML+="Image "+k8data.imgNum+" \""+k8data.layerName+"\" Press And Hold at "+k8data.point.x+","+k8data.point.y+"<br/><br/>";
 	p.scrollTop = p.scrollHeight;*/
+    console.log("Press and hold activated");
 }
 
 function klixel8Pan(k8data) {
