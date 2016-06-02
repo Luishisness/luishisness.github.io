@@ -79,12 +79,7 @@ function fd_loadImage(k8data){
                 //p.innerHTML="<div><h2><a href='#' target='_blank'><h2><img src='snacks-copy.png' alt=''></h2><button class='summer-central-rts-button' type='button'>Shop Now<img src='arrow.png'></button></a></div>";
                 p.innerHTML="<div><img src='/luishisness.github.io/klixel8/shop_images/brown.png' alt=''></div>";
                 break;
-            default:
-                p.innerHTML="";
-                break;
         }
-
-        
         return;
     }
     else{
