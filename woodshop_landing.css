@@ -1,7 +1,7 @@
 
 /*Master Container*/
 body{
-	background: url(/luishisness.github.io/images/wb_landing.jpg) 50% 50% / cover no-repeat fixed;
+	background: url(/luishisness.github.io/images/wb_background_one.jpg) 50% 50% / cover no-repeat fixed;
 	/*background-repeat:no-repeat;
 	background-size:cover;
 	background-position: fixed;*/
@@ -14,10 +14,10 @@ body{
 }
 
 .mp-container{
-	max-width:1000px;
-	background-color: rgba(255,255,255,0.9);
-	margin:auto;
-	height:1000px;
+	max-width: 1000px;
+    background-color: rgba(255,255,255,0.6);
+    margin: auto;
+    height: 800px;
 }
 
 .mp-container h1{
