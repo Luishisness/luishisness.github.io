@@ -19,34 +19,68 @@ body{
 	text-align: center;
 }
 
+/*Module Styles*/
 .mp-container-module{
 	height: 400px;
-	/*background-color: rgba(255,255,255,0.8);*/
 	padding-right:5px;
 	padding-left:5px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 10px;
+
+	background-color: rgba(255,255,255,0.6);
+
+  	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+
+  	transition:.5s;
 }
 
-.mp-container-module {
-  background-color: rgba(255,255,255,0.8);
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-
-  transition:.5s;
+.mp-container-module:hover,
+.mp-container-module:active,
+.mp-container-module:focus  { 
+	background-color: #ffffff; 
 }
-.mp-container-module:hover { background-color: #ffffff; }
 
+
+/*Header*/
+#mp-header{
+
+}
+
+/*About*/
+#mp-about{
+
+}
+#mp-about div{
+ display: inline-block;
+}
+
+/*Wood Works*/
+#mp-woodworks{
+
+}
+
+/*Contact*/
+#mp-contact{
+
+}
+
+/*Footer*/
 .mp-container footer{
 	text-align: center;
 	color: white;
 }
 
-.mp-container a{
+.mp-container footer a{
 	font-weight:bold;
 	color:white;
 }
+
+
+
+
+
+
