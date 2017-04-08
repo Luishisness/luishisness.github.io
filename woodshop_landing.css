@@ -1,0 +1,25 @@
+
+/*Master Container*/
+.mp-container{
+	background-image:url(/luishisness.github.io/images/wb_landing.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:auto;
+}
+.mp-container *{
+	margin:0px;
+}
+
+
+/*Inner*/
+.mp-container-inner{
+	max-width:1000px;
+	background-color: (255,255,255,0.9);
+
+}
+
+
+.mp-container-inner h1{
+	text-align: center;
+
+}
