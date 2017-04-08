@@ -97,6 +97,12 @@ body{
 	color:white;
 }
 
+/*---------------RESPONSIVE STYLES--------------------*/
+@media screen and (max-width: 800px) {
+	.mp-container div{
+		margin:0px;
+	}
+}
 
 
 
