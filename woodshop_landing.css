@@ -1,10 +1,12 @@
 
 /*Master Container*/
 body{
-	background-image:url(/luishisness.github.io/images/wb_landing.jpg);
-	background-repeat:no-repeat;
+	background-image:url(/luishisness.github.io/images/wb_landing.jpg) 50% 50% / cover no-repeat fixed;;
+	/*background-repeat:no-repeat;
 	background-size:cover;
-	background-position: fixed;
+	background-position: fixed;*/
+
+	
 }
 
 .mp-container *{
