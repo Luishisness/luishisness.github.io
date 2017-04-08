@@ -110,7 +110,8 @@ body{
 	#mp-about div:nth-child(2){
 		max-width: 465px;	
 		margin-top: 0px;
-	    margin-left: 0px;
+	    margin-left: auto;
+	    margin-right:auto;
 	}
 
 	/**/
