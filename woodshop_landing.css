@@ -21,10 +21,19 @@ body{
 
 .mp-container-module{
 	height: 400px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.8);
 	padding-right:5px;
 	padding-left:5px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 10px;
+}
+
+.mp-container footer{
+	text-align: center;
+	color: white;
+}
+
+.mp-container a{
+	font-weight:bold;
 }
