@@ -4,10 +4,10 @@ console.log("WoodShop Landing Page");
 
 
 
-$( document ).ready(function() {
-	
-    $(".mp-container-module").hover(function(e){
-    	$(this).animate({backgroundColor: "#ffffff" });
+jQuery( document ).ready(function() {
+
+    jQuery(".mp-container-module").hover(function(e){
+    	jQuery(this).animate({backgroundColor: "#ffffff" });
 	});
 
 });
