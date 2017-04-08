@@ -1,7 +1,7 @@
 
 /*Master Container*/
 body{
-	background-image:url(/luishisness.github.io/images/wb_landing.jpg) 50% 50% / cover no-repeat fixed;;
+	background: url(/luishisness.github.io/images/wb_landing.jpg) 50% 50% / cover no-repeat fixed;
 	/*background-repeat:no-repeat;
 	background-size:cover;
 	background-position: fixed;*/
