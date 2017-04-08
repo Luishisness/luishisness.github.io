@@ -4,6 +4,7 @@ body{
 	background-image:url(/luishisness.github.io/images/wb_landing.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-position: fixed;
 }
 
 .mp-container *{
