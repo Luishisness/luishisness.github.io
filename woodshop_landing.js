@@ -2,6 +2,12 @@ console.log("WoodShop Landing Page");
 
 
 
-$(".mp-container-module").hover(function(e){
-    $(this).animate({backgroundColor: "#ffffff" });
+
+
+$( document ).ready(function() {
+	
+    $(".mp-container-module").hover(function(e){
+    	$(this).animate({backgroundColor: "#ffffff" });
+	});
+
 });
