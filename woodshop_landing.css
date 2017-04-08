@@ -65,7 +65,6 @@ body{
 #mp-about div{
 	vertical-align: top;
  	display: inline-block;
- 	margin:auto;
 }
 #mp-about div:nth-child(1){
 	max-width: 200px;	
@@ -98,10 +97,29 @@ body{
 }
 
 /*---------------RESPONSIVE STYLES--------------------*/
+
 @media screen and (max-width: 800px) {
-	.mp-container div{
-		margin:0px;
+	/*About*/
+	#mp-about div{
+	 	display: block;
+	 	margin: auto;
 	}
+	#mp-about div:nth-child(1){
+		max-width: 200px;	
+	}
+	#mp-about div:nth-child(2){
+		max-width: 465px;	
+		margin-top: 0px;
+	    margin-left: 0px;
+	}
+
+	/**/
+
+	/**/
+
+	/**/
+
+	/**/
 }
 
 
