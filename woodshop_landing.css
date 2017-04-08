@@ -65,8 +65,15 @@ body{
 #mp-about div{
 	vertical-align: top;
  	display: inline-block;
- 	max-width: 350px;
  	margin:auto;
+}
+#mp-about div:nth-child(1){
+	max-width: 200px;	
+}
+#mp-about div:nth-child(2){
+	max-width: 465px;	
+	margin-top: 60px;
+    margin-left: 65px;
 }
 
 /*Wood Works*/
