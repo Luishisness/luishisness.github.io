@@ -14,12 +14,22 @@ k8data.message		status (error) messages
 
 function fd_loadImage(k8data){
         var p = gId('popout');
+        var container = gClass('fd_klixel8_container');
+        var containerWidth= container.width();
+        
 
 
     if(k8data.hsNum !=-1){
 
-        p.style.top= k8data.point.y+ "px";
-        p.style.left=  (k8data.point.x + 20) + "px";
+        if(){
+
+        }
+        else{
+
+        }
+
+       /* p.style.top= k8data.point.y+ "px";
+        p.style.left=  (k8data.point.x + 20) + "px";*/
 
         switch(k8data.layerName) {
             case "burgers":
@@ -142,7 +152,6 @@ function klixel8PressAndHold(k8data) {
     /*var p = gId('popout');
 	p.innerHTML+="Image "+k8data.imgNum+" \""+k8data.layerName+"\" Press And Hold at "+k8data.point.x+","+k8data.point.y+"<br/><br/>";
 	p.scrollTop = p.scrollHeight;*/
-    console.log("Press and hold activated");
 }
 
 function klixel8Pan(k8data) {
@@ -173,6 +182,9 @@ function klixel8Status(k8data) {var p=gId('popout');
 
 //gId shortens document.getElementById
 function gId(s) { return document.getElementById(s); }
+
+//gClass shortens document.getElementById
+function gClass(s) { return document.getElementsByClassName(s);}
 
 //winH and winW are for optional non-Klixel8 page resource resizing
 var winH;
