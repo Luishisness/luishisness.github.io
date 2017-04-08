@@ -20,6 +20,7 @@ body{
 }
 
 .mp-container img{
+	display: block;
 	width: 100%;
 	height: auto;
 }
@@ -52,13 +53,20 @@ body{
 #mp-header{
 
 }
+#mp-header img{
+	max-width: 80%;
+    margin: auto;
+}
 
 /*About*/
 #mp-about{
 
 }
 #mp-about div{
- display: inline-block;
+	vertical-align: top;
+ 	display: inline-block;
+ 	max-width: 350px;
+ 	margin:auto;
 }
 
 /*Wood Works*/
