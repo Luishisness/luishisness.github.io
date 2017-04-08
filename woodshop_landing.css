@@ -2,12 +2,7 @@
 /*Master Container*/
 body{
 	background: url(/luishisness.github.io/images/wp_background_two.jpg) 50% 50% / cover no-repeat fixed;
-	font-family: 'Old Standard TT', serif;
-	/*background-repeat:no-repeat;
-	background-size:cover;
-	background-position: fixed;*/
-
-	
+	font-family: 'Old Standard TT', serif;	
 }
 
 .mp-container *{
@@ -16,12 +11,20 @@ body{
 
 .mp-container{
 	max-width: 800px;
-    background-color: rgba(255,255,255,0.6);
     margin: auto;
     height: 800px;
 }
 
 .mp-container h1{
 	text-align: center;
+}
 
+.mp-container-module{
+	height: 400px;
+	background-color: rgba(255,255,255,0.7);
+	padding-right:5px;
+	padding-left:5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
 }
