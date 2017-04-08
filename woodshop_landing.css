@@ -19,6 +19,10 @@ body{
 	text-align: center;
 }
 
+.mp-container img{
+	text-align: center;
+}
+
 /*Module Styles*/
 .mp-container-module{
 	height: 400px;
