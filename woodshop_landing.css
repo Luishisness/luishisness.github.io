@@ -79,6 +79,17 @@ body{
 #mp-woodworks{
 
 }
+#mp-woodworks div{
+	vertical-align: top;
+	display: inline-block;
+}
+#mp-woodworks div:nth-child(1){
+	max-width: 485px;
+}
+
+#mp-woodworks div:nth-child(2){
+	 max-width: 350px;
+}
 
 /*Contact*/
 #mp-contact{
