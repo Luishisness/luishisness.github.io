@@ -179,6 +179,12 @@ div#mpcarousel{
 }
 
 
+/*Carousel*/
+.carousel-indicators{
+	margin-left: -30% !important;
+}
+  
+
 
 
 
