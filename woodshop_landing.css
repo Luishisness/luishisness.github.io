@@ -28,8 +28,6 @@ body{
 div#mp-header:active h1,
 div#mp-header:hover h1,
 div#mp-header:focus h1{
-	/*border:1px solid black;*/
-
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
@@ -106,19 +104,12 @@ div#mp-woodworks-copy{
 div#mpcarousel{
 	vertical-align: top;
 	display: inline-block;
-	 max-width: 260px;
+	max-width: 260px;
 }
-/*#mp-woodworks div:nth-child(1){
-	max-width: 485px;
-}
-
-#mp-woodworks div:nth-child(2){
-	 max-width: 350px;
-}*/
 
 /*Contact*/
-#mp-contact{
-
+#mp-contact h2,p{
+	text-align: center;
 }
 
 /*Footer*/
