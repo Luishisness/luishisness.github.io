@@ -33,9 +33,11 @@ div#mp-header:focus h1{
 	border-right: 1px solid black;
 }
 
+.mp-container div{
+	margin:auto;
+}
 .mp-container img{
-	display: block;
-	width: 100%;
+	max-width: 30px;
 	height: auto;
 }
 
