@@ -114,7 +114,10 @@ div#mpcarousel{
 }
 
 /*Contact*/
-#mp-contact h2,p{
+#mp-contact h2{
+	text-align: center;
+}
+#mp-contact p{
 	text-align: center;
 }
 
