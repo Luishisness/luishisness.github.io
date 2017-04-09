@@ -157,9 +157,10 @@ div#mpcarousel{
 	/*About*/
 	#mp-about div{
 	 	display: block;
-	 	margin: auto;
+	 	margin-left: auto;
+	 	margin-right;
 	}
-	#mp-about div:nth-child(1){
+	/*#mp-about div:nth-child(1){
 		max-width: 200px;	
 	}
 	#mp-about div:nth-child(2){
@@ -167,7 +168,7 @@ div#mpcarousel{
 		margin-top: 45px;
 	    margin-left: auto;
 	    margin-right:auto;
-	}
+	}*/
 
 	#mp-about h2{
 		text-align: center;
