@@ -29,8 +29,8 @@ body{
 div#mp-header:active h1,
 div#mp-header:hover h1,
 div#mp-header:focus h1{
-	border-left: 3px solid black;
-	border-right: 3px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .mp-container img{
