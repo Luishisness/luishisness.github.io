@@ -75,6 +75,9 @@ div#mp-header:focus h1{
 #mp-about{
 
 }
+#mp-about p{
+ text-align: left;
+}
 #mp-about div{
 	vertical-align: top;
  	display: inline-block;
@@ -93,6 +96,9 @@ div#mp-header:focus h1{
 /*Wood Works*/
 #mp-woodworks{
 
+}
+#mp-woodworks p{
+	text-align: left;
 }
 div#mp-woodworks-copy{
 	vertical-align: top;
