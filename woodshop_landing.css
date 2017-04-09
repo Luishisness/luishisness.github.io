@@ -84,12 +84,18 @@ body{
 	display: inline-block;
 }
 #mp-woodworks div:nth-child(1){
+	
+}
+#mp-woodworks div:nth-child(2){
+	
+}
+/*#mp-woodworks div:nth-child(1){
 	max-width: 485px;
 }
 
 #mp-woodworks div:nth-child(2){
 	 max-width: 350px;
-}/**/
+}*/
 
 /*Contact*/
 #mp-contact{
