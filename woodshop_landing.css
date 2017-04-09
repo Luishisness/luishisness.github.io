@@ -96,6 +96,12 @@ body{
 	color:white;
 }
 
+/*Carousel*/
+#mpcarousel{
+	max-width: 400px;
+	height: auto;
+}
+
 /*---------------RESPONSIVE STYLES--------------------*/
 
 @media screen and (max-width: 800px) {
