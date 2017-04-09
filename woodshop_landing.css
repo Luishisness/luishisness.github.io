@@ -33,11 +33,9 @@ div#mp-header:focus h1{
 	border-right: 1px solid black;
 }
 
-.mp-container div{
-	margin:auto;
-}
 .mp-container img{
-	max-width: 30px;
+	display: block;
+	width: 100%;
 	height: auto;
 }
 
@@ -126,8 +124,12 @@ div#mpcarousel{
 	text-align: center;
 }
 #mp-contact img{
-	display: block;
-	margin: auto
+	max-width: 30px;
+	
+}
+#mp-contact div{
+
+	margin: auto;
 }
 #mp-contact img:hover,
 #mp-contact img:active,
