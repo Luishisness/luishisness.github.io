@@ -164,11 +164,13 @@ div#mpcarousel{
 	 	margin-right:auto !important;
 	}
 	/*Wood Work*/
-	#mp-woodworks div{
+	div#mp-woodworks-copy,
+	div#mpcarousel{
 		display: block;
 		margin-left: auto !important;
 	 	margin-right:auto !important;
 	}
+
 
 
 	/**/
