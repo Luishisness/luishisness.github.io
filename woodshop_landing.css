@@ -145,6 +145,10 @@ div#mpcarousel{
 
 @media screen and (max-width: 800px) {
 
+	.mp-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.mp-container h1{
 		height:auto;
 	}
