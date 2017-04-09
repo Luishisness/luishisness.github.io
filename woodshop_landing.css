@@ -103,7 +103,7 @@ div#mp-woodworks-copy{
 	vertical-align: top;
     display: inline-block;
     max-width: 390px;
-    margin: 75px 65px 0 30px;
+    margin: 40px 65px 0 30px;
 }
 
 div#mpcarousel{
@@ -159,7 +159,7 @@ div#mpcarousel{
 	}
 	#mp-about div:nth-child(2){
 		max-width: 465px;	
-		margin-top: 20px;
+		margin-top: 45px;
 	    margin-left: auto;
 	    margin-right:auto;
 	}
