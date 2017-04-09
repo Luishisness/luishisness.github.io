@@ -86,14 +86,14 @@ div#mp-header:focus h1{
  	display: inline-block;
 }
 #mp-about div:nth-child(1){
-	max-width: 200px;
+	max-width: 280px;
     margin-left: 30px;
     margin-right: 55px;
 }
 #mp-about div:nth-child(2){
-	max-width: 465px;	
-	margin-top: 60px;
-    /*margin-left: 65px;*/
+	max-width: 375px;
+    margin-top: 0px;
+    /* margin-left: 65px; */
 }
 
 /*Wood Works*/
