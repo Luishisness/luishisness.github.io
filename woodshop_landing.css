@@ -79,7 +79,7 @@ body{
 #mp-woodworks{
 
 }
-#mp-woodworks div:nth-child(1){
+div#mp-woodworks-copy{
 	vertical-align: top;
 	display: inline-block;
 	max-width: 485px;
