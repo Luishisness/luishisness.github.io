@@ -125,16 +125,17 @@ div#mpcarousel{
 }
 #mp-contact img{
 	max-width: 30px;
+	display: inline-block;
 	
 }
 #mp-contact div{
-
 	margin: auto;
+	max-width: 200px;
 }
 #mp-contact img:hover,
 #mp-contact img:active,
 #mp-contact img:focus{
-	opacity: 0.6	
+	opacity: 0.6;	
 }
 
 /*Footer*/
