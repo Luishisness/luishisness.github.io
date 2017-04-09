@@ -1,5 +1,7 @@
 
 /*Master Container*/
+
+@media screen and (min-width: 800px) {
 body{
 	background: url(/luishisness.github.io/images/wp_background_two.jpg) 50% 50% / cover no-repeat fixed;
 	font-family: 'Old Standard TT', serif;	
@@ -140,7 +142,7 @@ div#mpcarousel{
 	max-width: 400px;
 	height: auto;
 }
-
+}
 /*---------------RESPONSIVE STYLES--------------------*/
 
 @media screen and (max-width: 800px) {
@@ -158,7 +160,7 @@ div#mpcarousel{
 	#mp-about div{
 	 	display: block;
 	 	margin-left: auto;
-	 	margin-right;
+	 	margin-right:auto;
 	}
 	/*#mp-about div:nth-child(1){
 		max-width: 200px;	
