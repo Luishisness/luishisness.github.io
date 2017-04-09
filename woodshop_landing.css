@@ -165,6 +165,7 @@ div#mpcarousel{
 	}
 	/*Wood Work*/
 	#mp-woodworks div{
+		display: block;
 		margin-left: auto !important;
 	 	margin-right:auto !important;
 	}
