@@ -123,6 +123,15 @@ div#mpcarousel{
 #mp-contact p{
 	text-align: center;
 }
+#mp-contact img{
+	display: block;
+	margin: auto
+}
+#mp-contact img:hover,
+#mp-contact img:active,
+#mp-contact img:focus{
+	opacity: 0.6	
+}
 
 /*Footer*/
 .mp-container footer{
@@ -140,6 +149,7 @@ div#mpcarousel{
 	max-width: 400px;
 	height: auto;
 }
+
 
 /*---------------RESPONSIVE STYLES--------------------*/
 
