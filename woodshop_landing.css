@@ -67,12 +67,14 @@ body{
  	display: inline-block;
 }
 #mp-about div:nth-child(1){
-	max-width: 200px;	
+	max-width: 200px;
+    margin-left: 30px;
+    margin-right: 55px;
 }
 #mp-about div:nth-child(2){
 	max-width: 465px;	
 	margin-top: 60px;
-    margin-left: 65px;
+    /*margin-left: 65px;*/
 }
 
 /*Wood Works*/
@@ -81,14 +83,15 @@ body{
 }
 div#mp-woodworks-copy{
 	vertical-align: top;
-	display: inline-block;
-	max-width: 485px;
+    display: inline-block;
+    max-width: 390px;
+    margin: 75px 65px 0 30px;
 }
 
 div#mpcarousel{
 	vertical-align: top;
 	display: inline-block;
-	 max-width: 350px;
+	 max-width: 260px;
 }
 /*#mp-woodworks div:nth-child(1){
 	max-width: 485px;
