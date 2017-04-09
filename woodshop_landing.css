@@ -19,22 +19,19 @@ body{
 	text-align: center;
     max-width: 470px;
     margin: 20px auto 25px auto;
-    /* border-top: 1px solid black; */
-    /* border-bottom: 1px solid black; */
-    /* border-right: 1px solid black; */
-    /* border-left: 1px solid black; */
     padding: 15px 0px 15px 0;
     background-color: rgba(255,255,255,0.6);
-    /* background-color: white; */
     border-radius: 5px;
     display: block;
-    /* max-height: 108px; */
     height: 108px;
 }
 div#mp-header:active h1,
 div#mp-header:hover h1,
 div#mp-header:focus h1{
-	border:1px solid black;
+	/*border:1px solid black;*/
+
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .mp-container img{
