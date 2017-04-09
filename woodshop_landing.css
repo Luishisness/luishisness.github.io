@@ -148,7 +148,7 @@ div#mpcarousel{
 	.mp-container h1{
 		height:auto;
 	}
-	.mp-container h2 p{
+	.mp-container h2, p{
 		text-align: center !important;
 	}
 
@@ -163,12 +163,23 @@ div#mpcarousel{
 	 	margin-left: auto !important;
 	 	margin-right:auto !important;
 	}
+	#mp-about div:nth-child(2) {
+	    
+	    margin-top: 30px;
+	    
+	}
 	/*Wood Work*/
 	div#mp-woodworks-copy,
 	div#mpcarousel{
 		display: block;
 		margin-left: auto !important;
 	 	margin-right:auto !important;
+	}
+	div#mp-woodworks-copy {
+    	margin-top: 0px !important;
+	}
+	div#mpcarousel {
+    	margin-top: 30px !important;
 	}
 
 
