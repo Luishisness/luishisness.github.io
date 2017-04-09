@@ -75,7 +75,7 @@ body{
     margin-left: 65px;
 }
 
-/*Wood Works*
+/*Wood Works*/
 #mp-woodworks{
 
 }
@@ -83,7 +83,7 @@ body{
 	vertical-align: top;
 	display: inline-block;
 }
-#mp-woodworks div:nth-child(1){
+/*#mp-woodworks div:nth-child(1){
 	max-width: 485px;
 }
 
