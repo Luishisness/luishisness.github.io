@@ -1,1 +1,487 @@
-<h1>Local Amp</h1>
+!doctype html>
+<html amp>
+  <head>
+ 
+    <meta charset="utf-8">
+ 
+    <!--
+      Includes and loads the AMP JS library.
+      Required for AMP pages and for use of amp validation.
+    Append "#development=1" to the URL for validation
+    -->
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+ 
+    <!-- this script is required for amp-youtube and must be in the <head> section  -->
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+   
+    <link rel="canonical" href="/browse.jsp?pageType=browse&id=picks_test_3">
+ 
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+ 
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+ 
+ 
+ 
+<style amp-custom>
+/*-------------------Global Desktop-------------------*/
+ 
+/*master reset*/
+.main-rts-container *{
+  margin: 0px;
+  padding: 0px;
+}
+.main-rts-container{
+  font-family: 'Brandon Text', sans-serif;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right:auto;
+  position:relative;
+}
+.main-rts-container img{
+  outline:none;
+}
+.main-rts-container a{
+  max-width: 300px;
+  display: inline-block;
+  text-decoration: none;
+  outline:none;
+  margin-bottom: 33px;
+}
+ 
+.main-rts-container h2{
+  background-color: rgba(0,0,0,0.8);
+  color: #b89231;
+  margin-top: -44px;
+  position: relative;
+  padding: 0px 0px 8px 0px;
+  text-transform: uppercase;
+  font-size: 17px;
+  text-align: center;
+}
+.main-rts-container span{
+  font-size: 24px;
+}
+ 
+.main-rts-container a:hover h2,
+.main-rts-container a:active h2,
+.main-rts-container a:focus h2{
+  background-color:rgba(184,146,49,0.8);
+  color:black;
+  font-weight: bold;
+}
+ 
+/*Spacer*/
+.rts-spacer{
+  margin-left: 33px;
+  margin-right: 32px;
+}
+ 
+/*Colapse Container*/
+.main-colopsable-container img{
+  width:100%;
+  height:auto;
+}
+ 
+/*-------------------Global RTS NAV-------------------*/
+.rts-main-nav ul{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.rts-main-nav li{
+  display: inline-block;
+  font-size: 24px;
+  padding: 0 55px 0 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.rts-main-nav li a{
+  color: black;
+  cursor: pointer;
+  margin-bottom:0px;
+}
+ 
+.rts-main-nav li a:hover,
+.rts-main-nav li a:active,
+.rts-main-nav li a:focus{
+  border-bottom: 3px solid #b89231;
+ 
+}
+ 
+/*highlight property topggled with jquery*/
+.rts-main-nav-active a{
+  border-bottom: 3px solid #b89231; 
+}
+ 
+ 
+/*-------------------Global Mobile-------------------*/
+ 
+/*---Mobile Main Container---*/
+.mm-page .main-rts-container{
+  max-width: 300px;
+}
+ 
+.mm-page .main-rts-container h1{
+  margin-bottom: 35px;
+}
+ 
+.mm-page .main-rts-container h1 img{
+  width: 100%;
+}
+ 
+.mm-page .main-rts-container h2{
+  margin-top: -42px;
+}
+ 
+/*---Mobile Navigation---*/
+.mm-page .rts-main-nav{
+  margin-top:-34px;
+  margin-bottom:1px;
+  float:none;
+  margin-left:0px;
+  max-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mm-page .rts-main-nav span{
+  display:none;
+}
+.mm-page .rts-main-nav p{
+  margin:0px;
+}
+.mm-page .rts-main-nav li{
+  float:none;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  margin-bottom:1px;
+  height:42px;
+  background-color:#b89231;
+  padding:0px;
+}
+ 
+.mm-page .rts-main-nav ul{
+  margin-bottom: 0px;
+}
+ 
+/*---Mobile Anchor Containers---*/
+.mm-page .main-colopsable-container{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.mm-page .main-colopsable-container  a{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+ 
+/*---Mobile Spacer---*/
+.mm-page .rts-spacer {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+ 
+ 
+/*-------------------DESKTOP/MOBILE WEB TOGGLE-------------------*/
+.rts-mobile-web-toggle{
+  display: none;
+}
+.mm-page .rts-desktop-web-toggle{
+  display: none;
+}
+.mm-page .rts-mobile-web-toggle{
+  display: block;
+}
+ 
+ 
+/*-------------------LAZY LOAD SMOOTH TRANSITION-------------------*/
+ 
+/*! Lazy Load XT v1.1.0 2016-01-12
+* http://ressio.github.io/lazy-load-xt
+* (C) 2016 RESS.io
+* Licensed under MIT */
+.main-rts-container .lazy-hidden {
+    opacity: 0;
+}
+.main-rts-container .lazy-loaded {
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+ 
+ 
+ 
+</style>
+ 
+ 
+ 
+  </head>
+  <body>
+    <h1>FD AMP PAGE!</h1>
+ 
+ 
+ 
+ 
+ 
+<div class="main-rts-container">
+ 
+ 
+ 
+  <div class="rts-main-nav">
+    <ul>
+      <li class="show-all-tab rts-main-nav-active" data-active="true">
+        <a aria-label="Click to all items">
+          <p>All</p>
+        </a>
+      </li>
+      <li class="show-bucket-christmas" data-active="false">
+        <a aria-label="Click to see only Christmas items">
+          <p>Christmas</p>
+        </a>
+      </li>
+      <li class="show-bucket-hanukkah" data-active="false">
+        <a aria-label="Click to see only Hanukkah items">
+         <p>Hanukkah</p>
+        </a>
+      </li>
+      <li class="show-bucket-newyear" data-active="false">
+        <a aria-label="Click to see only New Year's items">
+          <p>New Year's</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+ 
+  <div class="main-colopsable-container">
+ 
+    <!--First Colapsable Set-->
+    <a class="rts-all show-xmas show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=meals_holiday_meals&pageSize=30&all=true&activePage=1&sortBy=Sort_PopularityUp&orderAsc=true&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/christmas-dinners.jpg" alt="Turkey"></amp-img>
+      <h2>Christmas Dinners <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_sides&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/esential-sides.jpg" alt="Sides"></amp-img>
+      <h2>Essential Sides <span>></span></h2>
+    </a>
+    <a class="rts-all show-han" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=meals_hanukkah_meals&pageSize=30&all=true&activePage=1&sortBy=Sort_PopularityUp&orderAsc=true&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/hannukah-dinners.jpg" alt="Brisket"></amp-img>
+      <h2>Hanukkah Dinners <span>></span></h2>
+    </a>
+   
+ 
+    <!--Second Colapsable Set-->
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_bev&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/beverages.jpg" alt="Just FreshDirect Sparkling water, ginger ale, and tonic water"></amp-img>
+      <h2>Beverages <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_flowers&pageSize=30&all=false&activePage=1&sortBy=null&orderAsc=false&activeTab=product  ">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/flowers.jpg" alt="flowers"></amp-img>
+      <h2>Festive Florals <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-ny show-han" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_cheer&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/wines.jpg" alt="FreshDirect Wines and Spirits"></amp-img>
+      <h2>Wines &amp; Spirits <span>></span></h2>
+    </a>
+   
+ 
+    <!--Third Colapsable Set-->
+    <a class="rts-all show-xmas show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_meat&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/christmas-mains.jpg" alt="rib roast and seafood tower"></amp-img>
+      <h2>Christmas Mains <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_produce&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/produce.jpg" alt="Vegetables"></amp-img>
+      <h2>Peak-Season Produce <span>></span></h2>
+    </a>
+    <a class="rts-all show-han" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=wgd_hanukkah_meat&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/mains.jpg" alt="Meat"></amp-img>
+      <h2>Hanukkah Mains <span>></span></h2>
+    </a>
+ 
+    <!--Fourth Colapsable Set-->
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_platters&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/catering.jpg" alt="sandwich wraps"></amp-img>
+      <h2>Party Platters <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_desrt&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/baked-goods.jpg" alt="Sweets"></amp-img>
+      <h2>Baked Goods <span>></span></h2>
+    </a>
+    <a class="rts-all show-han" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_hanukkah_favorites&pageSize=30&all=false&activePage=1&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/hannukah.jpg" alt="Potato Pancakes"></amp-img>
+      <h2>Hanukkah Must-Haves <span>></span></h2>
+    </a>
+ 
+    <!--Fifth Colapsable Set-->
+    <a class="rts-all show-xmas show-han show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_app&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/apps.jpg" alt="Various Cheeses"></amp-img>
+      <h2>Easy Appetizers <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_pantry&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/baking.jpg" alt="Devils food cake"></amp-img>
+      <h2>Baking &amp; Cooking Essentials <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas show-ny" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_specialty&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/specialty.jpg" alt="Various goods"></amp-img>
+      <h2>Specialty Items <span>></span></h2>
+    </a>
+ 
+    <!--Sixth Colapsable Set-->
+    <a class="rts-all show-xmas show-ny show-han" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_holiday_household&pageSize=30&all=false&activePage=0&sortBy=null&orderAsc=false&activeTab=product">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/guest-prep.jpg" alt="Meyer's cleaning products"></amp-img>
+      <h2>Get Guest-Ready <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas" aria-hidden="false" data-rtsSpacer="on" href="/browse.jsp?pageType=browse&id=picks_oreo_santa_hats&pageSize=30&all=false&activePage=1&sortBy=null&orderAsc=false&activeTab=product ">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/oreos.jpg" alt="oreos"></amp-img>
+      <h2>Make: Oreo Santa Hats <span>></span></h2>
+    </a>
+    <a class="rts-all show-xmas" aria-hidden="false" data-rtsSpacer="on" target="_blank" title="Leave page to FreshDirect's blog" href="https://blog.freshdirect.com/tag/12-days-of-cookies/">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/rosemary-cookies.jpg" alt="cookies"></amp-img>
+      <h2>Rosemary Butter Cookies <span>></span></h2>
+    </a>
+ 
+ 
+    <!--Seventh Colapsable Set-->
+    <a class="rts-all show-xmas" aria-hidden="false" data-rtsSpacer="on" target="_blank" title="Leave page to FreshDirect's blog" href="https://blog.freshdirect.com/christmas-appetizer-cheese-plate/">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/cheese-tree.jpg" alt="cheese"></amp-img>
+      <h2>Christmas Tree Cheese Platter <span>></span></h2>
+    </a>
+    <a class="rts-all show-han" aria-hidden="false" data-rtsSpacer="on" target="_blank" title="Leave page to FreshDirect's blog" href="https://blog.freshdirect.com/deep-fried-matzo-balls-hanukkah/">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/matzo.jpg" alt="matzo balls"></amp-img>
+      <h2>Deep Fried Matzo Balls <span>></span></h2>
+    </a>
+    <a class="rts-all show-ny" aria-hidden="false" data-rtsSpacer="on" target="_blank" title="Leave page to FreshDirect's blog" href="https://blog.freshdirect.com/mini-cheese-ball-bite-appetizers/">
+      <amp-img layout="fill" src="/media/editorial/whats_good/central/img/holidays/holidays_2017/cheeseballs.jpg" alt="cheese balls"></amp-img>
+      <h2>Mini Cheese Ball Bites <span>></span></h2>
+    </a>
+ 
+ 
+  </div>
+ 
+</div>
+ 
+ 
+<script type='text/javascript'>
+ 
+ 
+ 
+jQuery( document ).ready(function() {
+ 
+ 
+  var allFilter= jQuery('.rts-all'),
+  xmasFilter= jQuery('.show-xmas'),
+  hanFilter=jQuery('.show-han'),
+  nyFilter=jQuery('.show-ny'),
+  navList= jQuery("div.rts-main-nav li");
+   
+ 
+  //Active nav and filter portion. Click event for standard users and keyup(register enter's keycode of 13) for ADA compliance
+  jQuery( "div.rts-main-nav li" ).on("keyup click", function(e) {
+ 
+    var code = e.keyCode || e.which;
+ 
+    if(  (jQuery(this).attr("data-active")==="false")  &&  ( (code === 13)  || ( e.type=== "click") )   ){
+      e.preventDefault();
+ 
+      //Remove active nav class from all links
+      for(var i=0, len=navList.length; i<len; i++){
+        jQuery(navList[i]).removeClass("rts-main-nav-active");
+        jQuery(navList[i]).attr("data-active", "false");
+      }
+ 
+      //set (this) nav data attribute to true
+      jQuery(this).attr("data-active", "true");
+ 
+      //add active nav class to "this"
+      jQuery(this).addClass("rts-main-nav-active");
+ 
+      //Filter Portion
+      if( jQuery(this).hasClass("show-all-tab") ){
+        allFilter.fadeIn(800);
+        allFilter.attr("data-rtsSpacer", "on");
+        allFilter.attr('aria-hidden', 'false');
+      }
+      if(jQuery(this).hasClass("show-bucket-christmas") ){
+        jQuery(".show-han, .show-ny").fadeOut(10);
+        jQuery(".show-han, .show-ny").attr("data-rtsSpacer", "off");
+        jQuery(".show-han, .show-ny").attr('aria-hidden', 'true');
+ 
+        xmasFilter.attr("data-rtsSpacer", "on");
+        xmasFilter.attr('aria-hidden', 'false');
+        xmasFilter.fadeIn(800);
+      }
+      if(jQuery(this).hasClass("show-bucket-hanukkah") ){
+        jQuery(".show-xmas, .show-ny").fadeOut(10);
+        jQuery(".show-xmas, .show-ny").attr("data-rtsSpacer", "off");
+        jQuery(".show-xmas, .show-ny").attr('aria-hidden', 'true');
+ 
+        hanFilter.attr("data-rtsSpacer", "on");
+        hanFilter.attr('aria-hidden', 'false');
+        hanFilter.fadeIn(800);
+      }
+      if(jQuery(this).hasClass("show-bucket-newyear") ){
+        jQuery(".show-xmas, .show-han").fadeOut(10);
+        jQuery(".show-xmas, .show-han").attr("data-rtsSpacer", "off");
+        jQuery(".show-xmas, .show-han").attr('aria-hidden', 'true');
+ 
+        nyFilter.attr("data-rtsSpacer", "on");
+        nyFilter.attr('aria-hidden', 'false');
+        nyFilter.fadeIn(800);
+      }
+ 
+      rtscolumnHelper("[data-rtsSpacer='on']");
+    }
+    else{
+     return;
+    }
+  });
+ 
+  function rtscolumnHelper(query){
+ 
+    var f = [],
+     counter = 0,
+     divArr=jQuery(query);
+ 
+    //Two dimenional array build
+    for (i=0;i<divArr.length/3;i++) {
+     f[i]=[];
+     for (j=0;j<3;j++){
+      f[i][j]=divArr[counter] || "";
+      counter++;
+     }
+    }
+ 
+    //Apply filter styling to grid layout
+    for(var k= 0; k< f.length; k++){
+      for(var l= 0; l<f[k].length; l++){
+        jQuery(f[k][l]).removeClass("rts-spacer");
+       if(l===1){
+          jQuery(f[k][l]).addClass("rts-spacer");
+       }
+     }
+    }   
+  }
+ 
+  rtscolumnHelper("[data-rtsSpacer='on']");
+ 
+ 
+  jQuery('div.rts-main-nav').attr('tabIndex', '0');
+  jQuery('div.rts-main-nav a').attr('tabIndex', '0');
+ 
+ 
+});
+ 
+ 
+ 
+</script>
+ 
+ 
+  </body>
+</html>
