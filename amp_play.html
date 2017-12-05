@@ -28,7 +28,6 @@
 }
 .main-rts-container{
 	font-family: 'Brandon Text', sans-serif;
-	max-width: 970px;
 	margin-left: auto;
 	margin-right:auto;
 	position:relative;
@@ -86,17 +85,29 @@
 
 /*Responsive Grid Centering*/
 
-@media screen and (max-width: 618px) {
+/*three column*/
+@media screen and (min-width: 618px) {
+	.main-rts-container{
+		max-width: 300px;
+	}
+}
+
+
+/*two column*/
+@media screen and (min-width: 922px) {
 	.main-rts-container{
 
-		max-width: 300px;
+		max-width: 607px;
 
 	}
 }
-@media screen and (max-width: 922px) {
+
+
+/*one column*/
+@media screen and (min-width: 923px) {
 	.main-rts-container{
 
-		max-width: 600px;
+		max-width: 905px;
 
 	}
 }
