@@ -1,130 +1,113 @@
 <!doctype html>
 <html amp>
   <head>
- 
+ 	<!--Meta charset="utf-8" is required>-->
     <meta charset="utf-8">
 
     <title>AMP FUN</title>
  
-    <!--Includes and loads the AMP JS library-->
+    <!--This script is required-->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
  
-    <!-- this script is required for amp-youtube and must be in the <head> section  -->
+    <!-- This script is not required but should still be added for amp-youtube-->
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
    
+   	<!--If you only have one page, and that page is an AMP page, you must still add the canonical link to it, which will then simply point to itself-->
     <link rel="canonical" href="https://luishisness.github.io/amp_play.html">
  
+ 	<!--Meta name=viewport is required-->
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
  
+ 	<!--Boilerplate style is required-->
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-    <script type="application/ld+json">
-    	/*{
-		  "caches": [
-		    {
-		      "id": "google",
-		      "name": "Google AMP Cache",
-		      "docs": "https://developers.google.com/amp/cache/",
-		      "updateCacheApiDomainSuffix": "cdn.ampproject.org"
-		    }
-		  ]
-		}*/
-
-    </script>
  
- 
- 
-<style amp-custom>
-/*-------------------Global Desktop-------------------*/
- 
-/*master reset*/
-.main-rts-container *{
-	margin: 0px;
-	padding: 0px;
-}
-.main-rts-container{
-	font-family: 'Brandon Text', sans-serif;
-	margin-left: auto;
-	margin-right:auto;
-	position:relative;
-}
-.main-rts-container img{
-	outline:none;
-	width:100%;
-	height:auto;
-}
-.main-rts-container a{
-	width: 100%;
-	max-width: 300px;
-	display: inline-block;
-	text-decoration: none;
-	outline:none;
-	margin-bottom: 5px;
-}
-.main-rts-container h1{
-	text-align: center;
-	max-width: 500px;
-	margin: auto;
-}
- 
-.main-rts-container h2{
-	background-color: rgba(0,0,0,0.8);
-	color: #b89231;
-	margin-top: -30px;
-	position: relative;
-	padding: 0px 0px 8px 0px;
-	text-transform: uppercase;
-	font-size: 15px;
-	text-align: center;
-	max-width: 300px;
-}
-.main-rts-container span{
-	font-size: 20px;
-}
- 
-.main-rts-container a:hover h2,
-.main-rts-container a:active h2,
-.main-rts-container a:focus h2{
-	background-color:rgba(184,146,49,0.8);
-	color:black;
-	font-weight: bold;
-}
- 
-/*Spacer*/
-.rts-spacer{
-	margin-left: 33px;
-	margin-right: 32px;
-}
-
-
-
-
-/*Responsive Grid Centering*/
-
-/*one column*/
-@media screen and (min-width: 0px) {
+ 	<!--Can only use style amp-custom-->
+	<style amp-custom>
+	/*-------------------Global Desktop-------------------*/
+	 
+	/*master reset*/
+	.main-rts-container *{
+		margin: 0px;
+		padding: 0px;
+	}
 	.main-rts-container{
+		font-family: 'Brandon Text', sans-serif;
+		margin-left: auto;
+		margin-right:auto;
+		position:relative;
+	}
+	.main-rts-container img{
+		outline:none;
+		width:100%;
+		height:auto;
+	}
+	.main-rts-container a{
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		text-decoration: none;
+		outline:none;
+		margin-bottom: 5px;
+	}
+	.main-rts-container h1{
+		text-align: center;
+		max-width: 500px;
+		margin: auto;
+	}
+	 
+	.main-rts-container h2{
+		background-color: rgba(0,0,0,0.8);
+		color: #b89231;
+		margin-top: -30px;
+		position: relative;
+		padding: 0px 0px 8px 0px;
+		text-transform: uppercase;
+		font-size: 15px;
+		text-align: center;
 		max-width: 300px;
 	}
-}
-
-/*two column*/
-@media screen and (min-width: 620px) {
-	.main-rts-container{
-		max-width: 607px;
+	.main-rts-container span{
+		font-size: 20px;
 	}
-}
-
-/*three column*/
-@media screen and (min-width: 923px) {
-	.main-rts-container{
-		max-width: 910px;
+	 
+	.main-rts-container a:hover h2,
+	.main-rts-container a:active h2,
+	.main-rts-container a:focus h2{
+		background-color:rgba(184,146,49,0.8);
+		color:black;
+		font-weight: bold;
 	}
-}
+	 
+	/*Spacer*/
+	.rts-spacer{
+		margin-left: 33px;
+		margin-right: 32px;
+	}
 
- 
- 
-</style>
+	/*Responsive Grid Centering*/
+
+	/*one column*/
+	@media screen and (min-width: 0px) {
+		.main-rts-container{
+			max-width: 300px;
+		}
+	}
+
+	/*two column*/
+	@media screen and (min-width: 620px) {
+		.main-rts-container{
+			max-width: 607px;
+		}
+	}
+
+	/*three column*/
+	@media screen and (min-width: 923px) {
+		.main-rts-container{
+			max-width: 910px;
+		}
+	}
+
+	</style>
  
  
  
@@ -243,8 +226,6 @@
       <h2>Mini Cheese Ball Bites <span>></span></h2>
     </a>
  
- 
-
  
 </div>
   
