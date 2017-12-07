@@ -12,8 +12,11 @@
     <!-- This script is not required but should still be added for amp-youtube-->
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 
-    <!--AMP analytics-->
+    <!--AMP analytics required for GTM-->
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    <!--Required for Iframes ex: GTM no script iframe-->
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
    
    	<!--If you only have one page, and that page is an AMP page, you must still add the canonical link to it, which will then simply point to itself-->
     <link rel="canonical" href="https://luishisness.github.io/amp_fd.html">
@@ -87,6 +90,12 @@
   		margin-right: 32px;
   	}
 
+    /*GTM IFRAME STYLE*/
+    .ampgtmiframe{
+      display:none;
+      visibility:hidden;
+    }
+
   	/*Responsive Grid Centering*/
 
   	/*one column*/
@@ -114,6 +123,9 @@
 
   </head>
   <body>
+    <!--GTM SCRIPTS-->
+    <amp-analytics config="https://www.googletagmanager.com/ns.html?id=GTM-XXXX" data-credentials="include"></amp-analytics>
+    <noscript><amp-iframe class="ampgtmiframe" src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX" height="0" width="0" ></amp-iframe></noscript>
      
     <div class="main-rts-container">
 
