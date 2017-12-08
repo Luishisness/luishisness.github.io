@@ -24,6 +24,9 @@
    
    	<!--If you only have one page, and that page is an AMP page, you must still add the canonical link to it, which will then simply point to itself-->
     <link rel="canonical" href="https://luishisness.github.io/amp_fd.html">
+
+    <!--AMP side bar to create navigation-->
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
  
  	  <!--Meta name=viewport is required-->
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -137,6 +140,17 @@
     -->
 
     <!--END GA SCRIPTS-->
+
+    <amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+      <ul>
+        <li>Nav item 1</li>
+        <li><a href="#idTwo" on="tap:idTwo.scrollTo">Nav item 2</a></li>
+        <li>Nav item 3</li>
+        <li><a href="#idFour" on="tap:idFour.scrollTo">Nav item 4</a></li>
+        <li>Nav item 5</li>
+        <li>Nav item 6</li>
+      </ul>
+    </amp-sidebar>
      
     <div class="main-rts-container">
 
